@@ -17,52 +17,55 @@ Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: bibliography.aux
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 The style file: apa.bst
-Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 A level-1 auxiliary file: cv.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: caa.aux
-Database file #1: telemetry.bib
-Warning--empty journal in Butcher2014
-You've used 3 entries,
+Database file #1: references.bib
+Warning--entry type for "FAOSTAT_EggplantProduction" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "PSA_Eggplant_2023" isn't style-file defined
+--line 19 of file references.bib
+You've used 11 entries,
             1940 wiz_defined-function locations,
-            502 strings with 4412 characters,
-and the built_in function-call counts, 1194 in all, are:
-= -- 113
-> -- 49
-< -- 3
-+ -- 16
-- -- 16
-* -- 100
-:= -- 211
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 23
-chr.to.int$ -- 3
-cite$ -- 4
-duplicate$ -- 46
-empty$ -- 79
-format.name$ -- 23
-if$ -- 234
+            555 strings with 6169 characters,
+and the built_in function-call counts, 4410 in all, are:
+= -- 425
+> -- 194
+< -- 7
++ -- 70
+- -- 66
+* -- 391
+:= -- 777
+add.period$ -- 34
+call.type$ -- 11
+change.case$ -- 86
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 157
+empty$ -- 293
+format.name$ -- 81
+if$ -- 841
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 19
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 33
+pop$ -- 75
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 88
 quote$ -- 0
-skip$ -- 40
+skip$ -- 119
 stack$ -- 0
-substring$ -- 69
-swap$ -- 10
+substring$ -- 302
+swap$ -- 27
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 18
-warning$ -- 1
-while$ -- 9
+type$ -- 62
+warning$ -- 0
+while$ -- 35
 width$ -- 0
-write$ -- 40
-(There was 1 warning)
+write$ -- 142
+(There were 2 warnings)
