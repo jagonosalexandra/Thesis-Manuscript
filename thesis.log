@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.22)  23 OCT 2025 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.22)  23 OCT 2025 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -639,25 +639,32 @@ Chapter 2.
 
 [6]
 
-[7])
+[7]
+Overfull \hbox (8.14688pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 trig-gers a mecha-tronic ac-tu-a-tor, such as a pneu-matic pusher or a servo-controlled
+ []
 
-[8]
+
+
+[8])
+
+[9]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-[9
+[10
 
 
 
 
-] [10]
-<figures/sinegraph.jpg, id=316, 713.66624pt x 471.7625pt>
+] [11]
+<figures/sinegraph.jpg, id=345, 713.66624pt x 471.7625pt>
 File: figures/sinegraph.jpg Graphic file (type jpg)
 <use figures/sinegraph.jpg>
 Package pdftex.def Info: figures/sinegraph.jpg  used on input line 133.
 (pdftex.def)             Requested size: 278.2383pt x 183.92184pt.
-<figures/cosinegraph.jpg, id=317, 713.66624pt x 471.7625pt>
+<figures/cosinegraph.jpg, id=346, 713.66624pt x 471.7625pt>
 File: figures/cosinegraph.jpg Graphic file (type jpg)
 <use figures/cosinegraph.jpg>
 Package pdftex.def Info: figures/cosinegraph.jpg  used on input line 140.
@@ -668,16 +675,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[11]
+[12]
 
-[12 <./figures/sinegraph.jpg> <./figures/cosinegraph.jpg>]
+[13 <./figures/sinegraph.jpg> <./figures/cosinegraph.jpg>]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
 )
 
-[13
+[14
 
 
 
@@ -689,21 +696,21 @@ Chapter 4.
 Chapter 5.
 
 
-[14
+[15
 
 
 
 
 ]
 
-[15])
+[16])
 
-[16]
+[17]
 \openout2 = `appendix.aux'.
 
  (appendix.tex)
 
-[17
+[18
 
 
 
@@ -713,19 +720,21 @@ Chapter 5.
 
  (bibliography.tex (thesis.bbl
 
-[18
+[19
 
 
 
 
-]))
+]
 
-[19]
+[20]))
+
+[21]
 \openout2 = `cv.aux'.
 
  (cv.tex)
 
-[20
+[22
 
 
 
@@ -744,7 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 )
 
-[21
+[23
 
 
 
@@ -757,17 +766,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AB915887E0173BF5A18C54D6137DD5C2;4202.
  ) 
 Here is how much of TeX's memory you used:
- 15038 strings out of 468081
- 240870 string characters out of 5426272
- 679668 words of memory out of 5000000
- 43305 multiletter control sequences out of 15000+600000
+ 15072 strings out of 468081
+ 241716 string characters out of 5426272
+ 679884 words of memory out of 5000000
+ 43329 multiletter control sequences out of 15000+600000
  639742 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,82p,1116b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (32 pages, 270687 bytes).
+ 80i,10n,82p,1327b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (34 pages, 297623 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
  259 words of extra memory for PDF output out of 10000 (max. 10000000)
 

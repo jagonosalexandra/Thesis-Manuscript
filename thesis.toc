@@ -16,18 +16,18 @@
 \contentsline {section}{\numberline {1.6}Definition of Terms}{3}{section.1.6}%
 \contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Theoretical Background}{5}{section.2.1}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Formula}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tables}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Images}{11}{section.3.4}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{16}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{17}{chapter*.10}%
-\contentsline {chapter}{REFERENCES}{18}{chapter*.10}%
-\contentsline {chapter}{CURRICULUM VITAE}{20}{chapter*.11}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{21}{chapter*.11}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Formula}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Tables}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Images}{12}{section.3.4}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{17}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{18}{chapter*.10}%
+\contentsline {chapter}{REFERENCES}{19}{chapter*.10}%
+\contentsline {chapter}{CURRICULUM VITAE}{22}{chapter*.11}%
+\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{23}{chapter*.11}%
 \contentsfinish 

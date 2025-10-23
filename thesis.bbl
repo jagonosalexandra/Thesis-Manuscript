@@ -1,9 +1,20 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{{BAFPS}}{2007}]{PNSBAFPS522007_Eggplant}
+{BAFPS} (2007).
+\newblock {PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading and
+  Classification}.
+\newblock As cited in Pinakbet Adventures ni Pina: Komik Serye.
+
 \bibitem[\protect\astroncite{Bharman et~al.}{2022}]{bharman2022deep}
 Bharman, P., Saad, S.~A., Khan, S., Jahan, I., Ray, M., and Biswas, M. (2022).
 \newblock Deep learning in agriculture: a review.
 \newblock {\em Asian Journal of Research in Computer Science}, 13(2):28--47.
+
+\bibitem[\protect\astroncite{Bolton}{2015}]{bolton2015programmable}
+Bolton, W. (2015).
+\newblock {\em Programmable logic controllers}.
+\newblock Newnes.
 
 \bibitem[\protect\astroncite{Breiman}{2001}]{breiman2001random}
 Breiman, L. (2001).
@@ -32,6 +43,11 @@ Haralick, R.~M., Shanmugam, K., and Dinstein, I.~H. (2007).
 \newblock Textural features for image classification.
 \newblock {\em IEEE Transactions on systems, man, and cybernetics},
   (6):610--621.
+
+\bibitem[\protect\astroncite{He et~al.}{2022}]{he2022cohens}
+He, M., Baker, R., Hutt, S., and Zhang, J. (2022).
+\newblock A less overconservative method for reliability estimation for cohen's
+  kappa.
 
 \bibitem[\protect\astroncite{Hearst et~al.}{1998}]{hearst1998support}
 Hearst, M.~A., Dumais, S.~T., Osuna, E., Platt, J., and Scholkopf, B. (1998).
@@ -69,12 +85,24 @@ LeCun, Y., Bengio, Y., and Hinton, G. (2015).
 \newblock Deep learning.
 \newblock {\em nature}, 521(7553):436--444.
 
+\bibitem[\protect\astroncite{Lee}{2008}]{lee2008cyber}
+Lee, E.~A. (2008).
+\newblock Cyber physical systems: Design challenges.
+\newblock In {\em 2008 11th IEEE international symposium on object and
+  component-oriented real-time distributed computing (ISORC)}, pages 363--369.
+  IEEE.
+
 \bibitem[\protect\astroncite{Lyu et~al.}{2025}]{lyu2025agronomic}
 Lyu, J., Jin, L., Ma, X., Li, Y., Sun, M., Jin, N., Wang, S., Hu, L., and Yu,
   J. (2025).
 \newblock Agronomic and quality traits of 30 eggplant germplasm resources from
   china.
 \newblock {\em Plants}, 14(12):1838.
+
+\bibitem[\protect\astroncite{McHugh}{2012}]{mchugh2012interrater}
+McHugh, M.~L. (2012).
+\newblock Interrater reliability: the kappa statistic.
+\newblock {\em Biochemia medica}, 22(3):276--282.
 
 \bibitem[\protect\astroncite{Ojala et~al.}{2002}]{ojala2002multiresolution}
 Ojala, T., Pietikainen, M., and Maenpaa, T. (2002).
@@ -90,6 +118,14 @@ Ojala, T., Pietikainen, M., and Maenpaa, T. (2002).
   Eggplant}.
 \newblock Bulletin published in September 2023.
 
+\bibitem[\protect\astroncite{{PNS}}{2019}]{BAFS2019PhilGAP}
+{PNS} (2019).
+\newblock {Philippine National Standard on Good Agricultural Practices
+  (PNS-GAP): "Gabay para sa ligtas na pagkain"}.
+\newblock Diliman, Quezon City, Philippines.
+\newblock Story by Mandigma, M. G. R., and Tecson, J. V. D. R.; Arts and
+  Graphics by Reyes, A. V.
+
 \bibitem[\protect\astroncite{Sun et~al.}{2025}]{sun2025novel}
 Sun, H., Fu, R., and Kang, D.-K. (2025).
 \newblock A novel efficient eggplant disease detection method with multi-scale
@@ -101,11 +137,24 @@ Szeliski, R. (2022).
 \newblock {\em Computer vision: algorithms and applications}.
 \newblock Springer Nature.
 
+\bibitem[\protect\astroncite{{USDA}}{2013}]{USDA2013EggplantStandards}
+{USDA} (2013).
+\newblock {United States Standards for Grades of Eggplant, $\S51.2190$ to
+  $\S51.2207$}.
+\newblock Supersedes third issue effective October 29, 1953.
+
 \bibitem[\protect\astroncite{Waghmare et~al.}{2025}]{Waghmare2025Comprehensive}
 Waghmare, D., Mulani, A., Takale, S.~R., Godase, V., and Mulani, A. (2025).
 \newblock {A Comprehensive Review on Automatic Fruit Sorting and Grading
   Techniques with Emphasis on Weight-based Classification}.
 \newblock {\em Research \& Review: Electronics and Communication Engineering},
   2:1--10.
+
+\bibitem[\protect\astroncite{Zhang et~al.}{2022}]{zhang2022advancements}
+Zhang, K., Shi, Y., Karnouskos, S., Sauter, T., Fang, H., and Colombo, A.~W.
+  (2022).
+\newblock Advancements in industrial cyber-physical systems: An overview and
+  perspectives.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 19(1):716--729.
 
 \end{thebibliography}
