@@ -1,23 +1,111 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Bhattacharya and Raj}{2004}]{Bhattacharya2004}
-Bhattacharya, S. and Raj, R.~A. (2004).
-\newblock Performance evaluation of multi-sensor data fusion technique for test
-  range application.
-\newblock {\em Sadhana - Academy Proceedings in Engineering Sciences},
-  29:237--247.
+\bibitem[\protect\astroncite{Bharman et~al.}{2022}]{bharman2022deep}
+Bharman, P., Saad, S.~A., Khan, S., Jahan, I., Ray, M., and Biswas, M. (2022).
+\newblock Deep learning in agriculture: a review.
+\newblock {\em Asian Journal of Research in Computer Science}, 13(2):28--47.
 
-\bibitem[\protect\astroncite{Butcher and Stewart}{2014}]{Butcher2014}
-Butcher, N. and Stewart, A. (2014).
-\newblock Securing the mavlink communication protocol for unmanned aircraft
-  systems.
-\newblock pages 1--9.
+\bibitem[\protect\astroncite{Breiman}{2001}]{breiman2001random}
+Breiman, L. (2001).
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32.
 
-\bibitem[\protect\astroncite{Fuller et~al.}{2014}]{Fuller2014}
-Fuller, B., Kok, J., Kelson, N., and Gonzalez, F. (2014).
-\newblock Hardware design and implementation of a mavlink interface for an
-  fpga-based autonomous uav flight control system.
-\newblock {\em Australasian Conference on Robotics and Automation, ACRA},
-  02-04-Dece.
+\bibitem[\protect\astroncite{Dougherty}{2020}]{dougherty2020digital}
+Dougherty, E.~R. (2020).
+\newblock {\em Digital image processing methods}.
+\newblock CRC Press.
+
+\bibitem[\protect\astroncite{{Food and Agriculture Organization of the United
+  Nations (FAO)}}{2025}]{FAOSTAT_EggplantProduction}
+{Food and Agriculture Organization of the United Nations (FAO)} (2025).
+\newblock {FAOSTAT: Production (Crops and livestock products) - Eggplants
+  (aubergines)}.
+\newblock Data retrieved for item 'Eggplants (aubergines)'.
+
+\bibitem[\protect\astroncite{Goodfellow et~al.}{2016}]{goodfellow2016deep}
+Goodfellow, I., Bengio, Y., Courville, A., and Bengio, Y. (2016).
+\newblock {\em Deep learning}, volume~1.
+\newblock MIT press Cambridge.
+
+\bibitem[\protect\astroncite{Haralick et~al.}{2007}]{haralick2007textural}
+Haralick, R.~M., Shanmugam, K., and Dinstein, I.~H. (2007).
+\newblock Textural features for image classification.
+\newblock {\em IEEE Transactions on systems, man, and cybernetics},
+  (6):610--621.
+
+\bibitem[\protect\astroncite{Hearst et~al.}{1998}]{hearst1998support}
+Hearst, M.~A., Dumais, S.~T., Osuna, E., Platt, J., and Scholkopf, B. (1998).
+\newblock Support vector machines.
+\newblock {\em IEEE Intelligent Systems and their applications}, 13(4):18--28.
+
+\bibitem[\protect\astroncite{Khan and AlGhamdi}{2024}]{khan2024intelligent}
+Khan, M.~A. and AlGhamdi, M.~A. (2024).
+\newblock An intelligent and fast system for detection of grape diseases in
+  rgb, grayscale, ycbcr, hsv and l* a* b* color spaces.
+\newblock {\em Multimedia Tools and Applications}, 83(17):50381--50399.
+
+\bibitem[\protect\astroncite{Khan et~al.}{2025}]{Khan2025UsingCV}
+Khan, Z., Rawat, S., Kumar, S., and Sharma, A. (2025).
+\newblock {Using computer vision for automated grading and sorting of fruits
+  and vegetables}.
+\newblock {\em International Journal of Agriculture and Food Science},
+  7:1056--1065.
+
+\bibitem[\protect\astroncite{Kumar and Sodhi}{2020}]{kumar2020comparative}
+Kumar, A. and Sodhi, S.~S. (2020).
+\newblock Comparative analysis of gaussian filter, median filter and denoise
+  autoenocoder.
+\newblock In {\em 2020 7th international conference on computing for
+  sustainable global development (INDIACom)}, pages 45--51. IEEE.
+
+\bibitem[\protect\astroncite{Lalam et~al.}{2025}]{lalam2025automatic}
+Lalam, R., Lavanya, K., Nadella, V., and Kiran, B.~R. (2025).
+\newblock Automatic sorting and grading of fruits based on maturity and size
+  using machine vision and artificial intelligence.
+\newblock {\em Journal of Scientific Research and Reports}, 31(1):153--163.
+
+\bibitem[\protect\astroncite{LeCun et~al.}{2015}]{lecun2015deep}
+LeCun, Y., Bengio, Y., and Hinton, G. (2015).
+\newblock Deep learning.
+\newblock {\em nature}, 521(7553):436--444.
+
+\bibitem[\protect\astroncite{Lyu et~al.}{2025}]{lyu2025agronomic}
+Lyu, J., Jin, L., Ma, X., Li, Y., Sun, M., Jin, N., Wang, S., Hu, L., and Yu,
+  J. (2025).
+\newblock Agronomic and quality traits of 30 eggplant germplasm resources from
+  china.
+\newblock {\em Plants}, 14(12):1838.
+
+\bibitem[\protect\astroncite{Ojala et~al.}{2002}]{ojala2002multiresolution}
+Ojala, T., Pietikainen, M., and Maenpaa, T. (2002).
+\newblock Multiresolution gray-scale and rotation invariant texture
+  classification with local binary patterns.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  24(7):971--987.
+
+\bibitem[\protect\astroncite{{Philippine Statistics
+  Authority}}{2023}]{PSA_Eggplant_2023}
+{Philippine Statistics Authority} (2023).
+\newblock {Major vegetables and root crops quarterly bulletin, April-June 2023:
+  Eggplant}.
+\newblock Bulletin published in September 2023.
+
+\bibitem[\protect\astroncite{Sun et~al.}{2025}]{sun2025novel}
+Sun, H., Fu, R., and Kang, D.-K. (2025).
+\newblock A novel efficient eggplant disease detection method with multi-scale
+  learning and edge feature enhancement.
+\newblock {\em Frontiers in Plant Science}, 16:1666955.
+
+\bibitem[\protect\astroncite{Szeliski}{2022}]{szeliski2022computer}
+Szeliski, R. (2022).
+\newblock {\em Computer vision: algorithms and applications}.
+\newblock Springer Nature.
+
+\bibitem[\protect\astroncite{Waghmare et~al.}{2025}]{Waghmare2025Comprehensive}
+Waghmare, D., Mulani, A., Takale, S.~R., Godase, V., and Mulani, A. (2025).
+\newblock {A Comprehensive Review on Automatic Fruit Sorting and Grading
+  Techniques with Emphasis on Weight-based Classification}.
+\newblock {\em Research \& Review: Electronics and Communication Engineering},
+  2:1--10.
 
 \end{thebibliography}
