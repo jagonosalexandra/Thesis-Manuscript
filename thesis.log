@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.8.23)  1 NOV 2025 13:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.8.23)  1 NOV 2025 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,26 +543,26 @@ fg))) (basicinfo.tex) (thesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (caa.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 \c@maskedRefs=\count334
 
 (C:\Users\Alexandra\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
@@ -579,7 +579,7 @@ ty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 6.
  (thesis.out) (thesis.out)
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
@@ -625,6 +625,17 @@ Package hyperref Info: Link coloring OFF on input line 19.
 
 
 ] (approval.tex
+Overfull \hbox (4.18414pt too wide) in paragraph at lines 7--8
+\TU/lmr/m/n/10.95 SYSTEM USING COMPUTER VISION AND MACHINE LEARNING FOR QUAL-
+ []
+
+
+Overfull \hbox (2.42847pt too wide) in paragraph at lines 7--8
+\TU/lmr/m/n/10.95 ITY CLASSIFICATION”, prepared and submitted by ALEXANDRA E. J
+AGONOS,
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -657,12 +668,7 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 15
 
 (C:\Users\Alexandra\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Overfull \hbox (7.10704pt too wide) detected at line 53
-[]
- []
-
-)
+))
 
 [2
 
@@ -714,18 +720,6 @@ Overfull \hbox (7.10704pt too wide) detected at line 53
  (chapter1.tex
 Chapter 1.
 
-Package natbib Warning: Citation `Bhattacharya2004' on page 1 undefined on inpu
-t line 6.
-
-
-Package natbib Warning: Citation `Fuller2014' on page 1 undefined on input line
- 8.
-
-
-Package natbib Warning: Citation `Butcher2014' on page 1 undefined on input lin
-e 13.
-
-
 
 [1
 
@@ -734,30 +728,42 @@ e 13.
 
 [2]
 
-[3]
+[3])
 
-[4])
-
-[5]
+[4]
 \openout2 = `chapter2.aux'.
 
  (chapter2.tex
 Chapter 2.
-)
 
-[6
+
+[5
 
 
 
 
 ]
+
+[6]
+
+[7]
+Overfull \hbox (8.2038pt too wide) in paragraph at lines 18--19
+\TU/lmr/m/n/12 triggers a mechatronic actuator, such as a pneumatic pusher or a
+ servo-controlled
+ []
+
+
+
+[8])
+
+[9]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
 
 
-[7
+[10
 
 
 
@@ -773,9 +779,9 @@ be planned.
 
 
 
-[8]
+[11]
 
-[9]
+[12]
 Overfull \hbox (8.40079pt too wide) in alignment at lines 33--41
  [] [] [] 
  []
@@ -867,9 +873,9 @@ Overfull \hbox (8.40079pt too wide) in alignment at lines 47--123
  [] [] [] 
  []
 
-[10] [11] [12] [13] [14] [15] [16]
+[13] [14] [15] [16] [17] [18] [19]
 
-[17]
+[20]
 File: figures/sinegraph.jpg Graphic file (type bmp)
 <figures/sinegraph.jpg>
 File: figures/cosinegraph.jpg Graphic file (type bmp)
@@ -880,16 +886,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[18]
+[21]
 
-[19]
+[22]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
 )
 
-[20
+[23
 
 
 
@@ -901,21 +907,21 @@ Chapter 4.
 Chapter 5.
 
 
-[21
+[24
 
 
 
 
 ]
 
-[22])
+[25])
 
-[23]
+[26]
 \openout2 = `appendix.aux'.
 
  (appendix.tex)
 
-[24
+[27
 
 
 
@@ -928,7 +934,7 @@ Chapter 5.
 
  (cv.tex)
 
-[25
+[28
 
 
 
@@ -950,30 +956,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 )
 
-[26
+[29
 
 
 
-]
-
-Package natbib Warning: There were undefined citations.
-
-(thesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
+] (thesis.aux (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux)
 (chapter5.aux) (appendix.aux) (bibliography.aux) (cv.aux) (caa.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 54818375EA67CBC12906929195D19643;4792.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 3CE0B1B46B44AD1E259A97FC0D7D1DA7;4736
+(rerunfilecheck)             After:  F9C4B194AFDF03FDD9767AA9FDEB3D60;4736.
  ) 
 Here is how much of TeX's memory you used:
- 15011 strings out of 403250
- 237359 string characters out of 5460060
- 676011 words of memory out of 5000000
- 43134 multiletter control sequences out of 15000+600000
+ 15039 strings out of 403250
+ 237912 string characters out of 5460060
+ 676166 words of memory out of 5000000
+ 43162 multiletter control sequences out of 15000+600000
  635457 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 77i,10n,82p,1121b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,10n,82p,1278b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.pdf (37 pages).
+Output written on thesis.pdf (40 pages).
