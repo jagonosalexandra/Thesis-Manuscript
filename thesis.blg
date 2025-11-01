@@ -23,56 +23,49 @@ A level-1 auxiliary file: cv.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: caa.aux
 Database file #1: references.bib
-Warning--entry type for "FAOSTAT_EggplantProduction" isn't style-file defined
---line 1 of file references.bib
-Warning--entry type for "PSA_Eggplant_2023" isn't style-file defined
---line 19 of file references.bib
-Warning--entry type for "PNSBAFPS522007_Eggplant" isn't style-file defined
---line 373 of file references.bib
-Warning--entry type for "USDA2013EggplantStandards" isn't style-file defined
---line 395 of file references.bib
 Warning--can't use both volume and number fields in goodfellow2016deep
 Warning--there's a number but no volume in haralick2007textural
 Warning--empty booktitle in he2022cohens
-You've used 26 entries,
+Warning--can't use both author and editor fields in mamaril2021eggplantcomics
+You've used 35 entries,
             1940 wiz_defined-function locations,
-            654 strings with 9028 characters,
-and the built_in function-call counts, 10233 in all, are:
-= -- 993
-> -- 437
-< -- 16
-+ -- 154
-- -- 148
-* -- 916
-:= -- 1796
-add.period$ -- 80
-call.type$ -- 26
-change.case$ -- 200
-chr.to.int$ -- 26
-cite$ -- 29
-duplicate$ -- 372
-empty$ -- 687
-format.name$ -- 178
-if$ -- 1950
+            705 strings with 10875 characters,
+and the built_in function-call counts, 13970 in all, are:
+= -- 1348
+> -- 598
+< -- 22
++ -- 208
+- -- 202
+* -- 1250
+:= -- 2441
+add.period$ -- 113
+call.type$ -- 35
+change.case$ -- 267
+chr.to.int$ -- 35
+cite$ -- 39
+duplicate$ -- 524
+empty$ -- 951
+format.name$ -- 247
+if$ -- 2684
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 133
-num.names$ -- 78
-pop$ -- 176
+missing$ -- 34
+newline$ -- 183
+num.names$ -- 105
+pop$ -- 245
 preamble$ -- 1
-purify$ -- 204
+purify$ -- 276
 quote$ -- 0
-skip$ -- 277
+skip$ -- 383
 stack$ -- 0
-substring$ -- 695
-swap$ -- 64
-text.length$ -- 3
+substring$ -- 895
+swap$ -- 101
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 3
-while$ -- 84
+type$ -- 200
+warning$ -- 4
+while$ -- 111
 width$ -- 0
-write$ -- 333
-(There were 7 warnings)
+write$ -- 462
+(There were 4 warnings)

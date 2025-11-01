@@ -1,10 +1,23 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Awasthi}{2021}]{awasthi2021development}
+Awasthi, A. (2021).
+\newblock {\em Development and Fabrication of a Power Operated Low-Cost
+  Small-Scale Fruit and Vegetable Grading Machine}.
+\newblock PhD thesis, Punjab Agricultureal University Ludhiana.
+
 \bibitem[\protect\astroncite{{BAFPS}}{2007}]{PNSBAFPS522007_Eggplant}
 {BAFPS} (2007).
-\newblock {PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading and
-  Classification}.
+\newblock {\em {PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading and
+  Classification}}.
+\newblock Quezon City, Philippines.
 \newblock As cited in Pinakbet Adventures ni Pina: Komik Serye.
+
+\bibitem[\protect\astroncite{Bansal and Uddin}{2023}]{bansal2023computer}
+Bansal, J.~C. and Uddin, M.~S. (2023).
+\newblock Computer vision and machine learning in agriculture: An introduction.
+\newblock In {\em Computer Vision and Machine Learning in Agriculture, Volume
+  3}, pages 1--18. Springer.
 
 \bibitem[\protect\astroncite{Bharman et~al.}{2022}]{bharman2022deep}
 Bharman, P., Saad, S.~A., Khan, S., Jahan, I., Ray, M., and Biswas, M. (2022).
@@ -21,22 +34,35 @@ Breiman, L. (2001).
 \newblock Random forests.
 \newblock {\em Machine learning}, 45(1):5--32.
 
+\bibitem[\protect\astroncite{Bu et~al.}{2025}]{bu2025grading}
+Bu, Y., Liu, H., Li, H., Murengami, B.~G., Wang, X., and Chen, X. (2025).
+\newblock Grading algorithm for orah sorting line based on improved shufflenet
+  v2.
+\newblock {\em Applied Sciences}, 15(8):4483.
+
 \bibitem[\protect\astroncite{Dougherty}{2020}]{dougherty2020digital}
 Dougherty, E.~R. (2020).
 \newblock {\em Digital image processing methods}.
 \newblock CRC Press.
 
 \bibitem[\protect\astroncite{{Food and Agriculture Organization of the United
-  Nations (FAO)}}{2025}]{FAOSTAT_EggplantProduction}
-{Food and Agriculture Organization of the United Nations (FAO)} (2025).
-\newblock {FAOSTAT: Production (Crops and livestock products) - Eggplants
-  (aubergines)}.
+  Nations}}{2025}]{fao2025eggplant}
+{Food and Agriculture Organization of the United Nations} (2025).
+\newblock {\em {FAOSTAT: Production (Crops and livestock products) - Eggplants
+  (aubergines)}}.
+\newblock FAO.
 \newblock Data retrieved for item 'Eggplants (aubergines)'.
 
 \bibitem[\protect\astroncite{Goodfellow et~al.}{2016}]{goodfellow2016deep}
 Goodfellow, I., Bengio, Y., Courville, A., and Bengio, Y. (2016).
 \newblock {\em Deep learning}, volume~1.
 \newblock MIT press Cambridge.
+
+\bibitem[\protect\astroncite{Haque and Sohel}{2022}]{haque2022deepnetwork}
+Haque, M.~R. and Sohel, F. (2022).
+\newblock Deep network with score level fusion and inference-based transfer
+  learning to recognize leaf blight and fruit rot diseases of eggplant.
+\newblock {\em Agriculture}, 12(8).
 
 \bibitem[\protect\astroncite{Haralick et~al.}{2007}]{haralick2007textural}
 Haralick, R.~M., Shanmugam, K., and Dinstein, I.~H. (2007).
@@ -55,7 +81,7 @@ Hearst, M.~A., Dumais, S.~T., Osuna, E., Platt, J., and Scholkopf, B. (1998).
 \newblock {\em IEEE Intelligent Systems and their applications}, 13(4):18--28.
 
 \bibitem[\protect\astroncite{Khan and AlGhamdi}{2024}]{khan2024intelligent}
-Khan, M.~A. and AlGhamdi, M.~A. (2024).
+Khan, A. and AlGhamdi, M. (2024).
 \newblock An intelligent and fast system for detection of grape diseases in
   rgb, grayscale, ycbcr, hsv and l* a* b* color spaces.
 \newblock {\em Multimedia Tools and Applications}, 83(17):50381--50399.
@@ -73,6 +99,13 @@ Kumar, A. and Sodhi, S.~S. (2020).
   autoenocoder.
 \newblock In {\em 2020 7th international conference on computing for
   sustainable global development (INDIACom)}, pages 45--51. IEEE.
+
+\bibitem[\protect\astroncite{Kursun and Koklu}{2025}]{kursun2025conference}
+Kursun, R. and Koklu, M. (2025).
+\newblock Effectiveness of sift features in enhancing watermelon leaf disease
+  classification accuracy.
+\newblock In {\em 2025 International Conference on Computer Systems and
+  Technologies (CompSysTech)}, pages 1--6.
 
 \bibitem[\protect\astroncite{Lalam et~al.}{2025}]{lalam2025automatic}
 Lalam, R., Lavanya, K., Nadella, V., and Kiran, B.~R. (2025).
@@ -92,12 +125,25 @@ Lee, E.~A. (2008).
   component-oriented real-time distributed computing (ISORC)}, pages 363--369.
   IEEE.
 
+\bibitem[\protect\astroncite{Lee et~al.}{2023}]{lee2023multi}
+Lee, J.-H., Vo, H.-T., Kwon, G.-J., Kim, H.-G., and Kim, J.-Y. (2023).
+\newblock Multi-camera-based sorting system for surface defects of apples.
+\newblock {\em Sensors}, 23(8).
+
 \bibitem[\protect\astroncite{Lyu et~al.}{2025}]{lyu2025agronomic}
 Lyu, J., Jin, L., Ma, X., Li, Y., Sun, M., Jin, N., Wang, S., Hu, L., and Yu,
   J. (2025).
 \newblock Agronomic and quality traits of 30 eggplant germplasm resources from
   china.
 \newblock {\em Plants}, 14(12):1838.
+
+\bibitem[\protect\astroncite{Mandigma et~al.}{2021}]{mamaril2021eggplantcomics}
+Mandigma, M. G.~R., Reyes, A.~V., and Tecson, J. V.~D. (2021).
+\newblock {\em {Pinakbet Adventures ni Pina}: Komik Serye tungkol sa mga
+  sumusunod na Philippine National Standards (PNS)}.
+\newblock {Bureau of Agriculture and Fisheries Standards (BAFS)}, Diliman,
+  Quezon City.
+\newblock ISBN 978-621-455-226-9 (PDF).
 
 \bibitem[\protect\astroncite{McHugh}{2012}]{mchugh2012interrater}
 McHugh, M.~L. (2012).
@@ -112,11 +158,11 @@ Ojala, T., Pietikainen, M., and Maenpaa, T. (2002).
   24(7):971--987.
 
 \bibitem[\protect\astroncite{{Philippine Statistics
-  Authority}}{2023}]{PSA_Eggplant_2023}
-{Philippine Statistics Authority} (2023).
-\newblock {Major vegetables and root crops quarterly bulletin, April-June 2023:
-  Eggplant}.
-\newblock Bulletin published in September 2023.
+  Authority}}{2025}]{psa2025eggplant}
+{Philippine Statistics Authority} (2025).
+\newblock {\em {Philippines Production: Value: Crops: Eggplant}}.
+\newblock Philippine Statistics Authority.
+\newblock As reported by CEIC.
 
 \bibitem[\protect\astroncite{{PNS}}{2019}]{BAFS2019PhilGAP}
 {PNS} (2019).
@@ -139,8 +185,9 @@ Szeliski, R. (2022).
 
 \bibitem[\protect\astroncite{{USDA}}{2013}]{USDA2013EggplantStandards}
 {USDA} (2013).
-\newblock {United States Standards for Grades of Eggplant, $\S51.2190$ to
-  $\S51.2207$}.
+\newblock {\em {United States Standards for Grades of Eggplant, $\S51.2190$ to
+  $\S51.2207$}}.
+\newblock Washington, D.C., effective february 4, 2013 edition.
 \newblock Supersedes third issue effective October 29, 1953.
 
 \bibitem[\protect\astroncite{Waghmare et~al.}{2025}]{Waghmare2025Comprehensive}
@@ -150,11 +197,23 @@ Waghmare, D., Mulani, A., Takale, S.~R., Godase, V., and Mulani, A. (2025).
 \newblock {\em Research \& Review: Electronics and Communication Engineering},
   2:1--10.
 
+\bibitem[\protect\astroncite{Xu et~al.}{2024}]{xu2024design}
+Xu, J., Lu, Y., and Deng, B. (2024).
+\newblock Design, prototyping, and evaluation of a new machine vision-based
+  automated sweetpotato grading and sorting system.
+\newblock {\em Journal of the ASABE}, 67(5):1369--1380.
+
 \bibitem[\protect\astroncite{Zhang et~al.}{2022}]{zhang2022advancements}
 Zhang, K., Shi, Y., Karnouskos, S., Sauter, T., Fang, H., and Colombo, A.~W.
   (2022).
 \newblock Advancements in industrial cyber-physical systems: An overview and
   perspectives.
 \newblock {\em IEEE Transactions on Industrial Informatics}, 19(1):716--729.
+
+\bibitem[\protect\astroncite{Zhang et~al.}{2021}]{zhang2021development}
+Zhang, Z., Lu, Y., and Lu, R. (2021).
+\newblock Development and evaluation of an apple infield grading and sorting
+  system.
+\newblock {\em Postharvest Biology and Technology}, 180:111588.
 
 \end{thebibliography}
