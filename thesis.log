@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.1)  2 NOV 2025 02:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.1)  2 NOV 2025 03:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,210 +1288,223 @@ Package pdftex.def Info: figures/Bu2025.jpg  used on input line 87.
 [29]
 
 [30]
-Overfull \hbox (4.20412pt too wide) in paragraph at lines 196--197
- []|\OT1/ntxtlf/b/n/12 Morphological 
- []
-
-
 
 [31]
 
 [32]
-Overfull \hbox (14.05606pt too wide) in paragraph at lines 270--317
- [][] 
- []
-
-
 
 [33]
 
 [34]
 
-[35])
+[35]
 
 [36]
+Overfull \hbox (4.20412pt too wide) in paragraph at lines 220--221
+ []|\OT1/ntxtlf/b/n/12 Morphological 
+ []
+
+
+
+[37]
+
+[38]
+
+[39]
+
+[40]
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+Overfull \hbox (14.05606pt too wide) in paragraph at lines 322--369
+ [][] 
+ []
+
+
+
+[46]
+
+[47]
+
+[48])
+
+[49]
+
+[50]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
 
 
-[37
+[51
 
 
 
 
 ]
-<figures/research_design.png, id=720, 487.8225pt x 364.9635pt>
+<figures/research_design.png, id=802, 487.8225pt x 364.9635pt>
 File: figures/research_design.png Graphic file (type png)
 <use figures/research_design.png>
-Package pdftex.def Info: figures/research_design.png  used on input line 12.
+Package pdftex.def Info: figures/research_design.png  used on input line 13.
 (pdftex.def)             Requested size: 278.2383pt x 208.16501pt.
 
 
-[38 <./figures/research_design.png>]
+[52 <./figures/research_design.png>]
 
-[39]
-Overfull \hbox (8.40079pt too wide) in alignment at lines 33--41
+[53]
+Overfull \hbox (8.40079pt too wide) in alignment at lines 37--45
  [] [] [] 
  []
 
 
-Overfull \hbox (8.40079pt too wide) in alignment at lines 41--44
+Overfull \hbox (8.40079pt too wide) in alignment at lines 45--48
  [] [] [] 
  []
 
 
-Overfull \hbox (8.40079pt too wide) in alignment at lines 44--47
+Overfull \hbox (8.40079pt too wide) in alignment at lines 48--51
  [] [] [] 
  []
 
-<figures/dc_motor.jpg, id=731, 1003.75pt x 1003.75pt>
+<figures/dc_motor.jpg, id=812, 1003.75pt x 1003.75pt>
 File: figures/dc_motor.jpg Graphic file (type jpg)
 <use figures/dc_motor.jpg>
-Package pdftex.def Info: figures/dc_motor.jpg  used on input line 49.
+Package pdftex.def Info: figures/dc_motor.jpg  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 85.35591pt.
-<figures/adapter.jpg, id=732, 1469.49pt x 1494.58376pt>
+<figures/adapter.jpg, id=813, 1469.49pt x 1494.58376pt>
 File: figures/adapter.jpg Graphic file (type jpg)
 <use figures/adapter.jpg>
-Package pdftex.def Info: figures/adapter.jpg  used on input line 52.
+Package pdftex.def Info: figures/adapter.jpg  used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 86.79765pt.
-<figures/arduino.jpg, id=733, 180.675pt x 180.675pt>
+<figures/arduino.jpg, id=814, 180.675pt x 180.675pt>
 File: figures/arduino.jpg Graphic file (type jpg)
 <use figures/arduino.jpg>
-Package pdftex.def Info: figures/arduino.jpg  used on input line 55.
+Package pdftex.def Info: figures/arduino.jpg  used on input line 59.
 (pdftex.def)             Requested size: 85.35826pt x 85.35835pt.
-<figures/buck_converter.jpg, id=734, 2007.5pt x 2007.5pt>
+<figures/buck_converter.jpg, id=815, 2007.5pt x 2007.5pt>
 File: figures/buck_converter.jpg Graphic file (type jpg)
 <use figures/buck_converter.jpg>
-Package pdftex.def Info: figures/buck_converter.jpg  used on input line 58.
+Package pdftex.def Info: figures/buck_converter.jpg  used on input line 62.
 (pdftex.def)             Requested size: 85.35826pt x 85.34059pt.
-<figures/transistor.jpg, id=735, 501.875pt x 449.68pt>
+<figures/transistor.jpg, id=816, 501.875pt x 449.68pt>
 File: figures/transistor.jpg Graphic file (type jpg)
 <use figures/transistor.jpg>
-Package pdftex.def Info: figures/transistor.jpg  used on input line 61.
+Package pdftex.def Info: figures/transistor.jpg  used on input line 65.
 (pdftex.def)             Requested size: 85.35826pt x 76.47888pt.
-<figures/diode.jpg, id=736, 1003.75pt x 1003.75pt>
+<figures/diode.jpg, id=817, 1003.75pt x 1003.75pt>
 File: figures/diode.jpg Graphic file (type jpg)
 <use figures/diode.jpg>
-Package pdftex.def Info: figures/diode.jpg  used on input line 64.
+Package pdftex.def Info: figures/diode.jpg  used on input line 68.
 (pdftex.def)             Requested size: 85.35826pt x 85.35591pt.
 
-Underfull \hbox (badness 1102) in paragraph at lines 65--66
+Underfull \hbox (badness 1102) in paragraph at lines 69--70
 \OT1/ntxtlf/m/n/12 com-po-nents from volt-age spikes
  []
 
-<figures/servo_motor.jpg, id=737, 1254.6875pt x 1254.6875pt>
+<figures/servo_motor.jpg, id=818, 1254.6875pt x 1254.6875pt>
 File: figures/servo_motor.jpg Graphic file (type jpg)
 <use figures/servo_motor.jpg>
-Package pdftex.def Info: figures/servo_motor.jpg  used on input line 67.
+Package pdftex.def Info: figures/servo_motor.jpg  used on input line 71.
 (pdftex.def)             Requested size: 85.35826pt x 85.34825pt.
-<figures/ball_bearing.jpg, id=738, 722.7pt x 722.7pt>
+<figures/ball_bearing.jpg, id=819, 722.7pt x 722.7pt>
 File: figures/ball_bearing.jpg Graphic file (type jpg)
 <use figures/ball_bearing.jpg>
-Package pdftex.def Info: figures/ball_bearing.jpg  used on input line 70.
+Package pdftex.def Info: figures/ball_bearing.jpg  used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/bolts_nuts.jpg, id=739, 118.5228pt x 86.724pt>
+<figures/bolts_nuts.jpg, id=820, 118.5228pt x 86.724pt>
 File: figures/bolts_nuts.jpg Graphic file (type jpg)
 <use figures/bolts_nuts.jpg>
-Package pdftex.def Info: figures/bolts_nuts.jpg  used on input line 73.
+Package pdftex.def Info: figures/bolts_nuts.jpg  used on input line 77.
 (pdftex.def)             Requested size: 85.35826pt x 62.45973pt.
 
-Underfull \hbox (badness 2020) in paragraph at lines 74--75
+Underfull \hbox (badness 2020) in paragraph at lines 78--79
 \OT1/ntxtlf/m/n/12 mo-tors, frame, and rollers, to
  []
 
-<figures/screws.jpg, id=740, 361.35pt x 361.35pt>
+<figures/screws.jpg, id=821, 361.35pt x 361.35pt>
 File: figures/screws.jpg Graphic file (type jpg)
 <use figures/screws.jpg>
-Package pdftex.def Info: figures/screws.jpg  used on input line 76.
+Package pdftex.def Info: figures/screws.jpg  used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 85.35835pt.
-<figures/conveyor_roller.jpg, id=741, 897.3525pt x 897.3525pt>
+<figures/conveyor_roller.jpg, id=822, 897.3525pt x 897.3525pt>
 File: figures/conveyor_roller.jpg Graphic file (type jpg)
 <use figures/conveyor_roller.jpg>
-Package pdftex.def Info: figures/conveyor_roller.jpg  used on input line 80.
+Package pdftex.def Info: figures/conveyor_roller.jpg  used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 85.34521pt.
-<figures/timing_belt_pulley.jpg, id=742, 1379.1525pt x 1379.1525pt>
+<figures/timing_belt_pulley.jpg, id=823, 1379.1525pt x 1379.1525pt>
 File: figures/timing_belt_pulley.jpg Graphic file (type jpg)
 <use figures/timing_belt_pulley.jpg>
-Package pdftex.def Info: figures/timing_belt_pulley.jpg  used on input line 84.
+Package pdftex.def Info: figures/timing_belt_pulley.jpg  used on input line 88.
 
 (pdftex.def)             Requested size: 85.35826pt x 85.35504pt.
-<figures/acetate.png, id=743, 803.0pt x 803.0pt>
+<figures/acetate.png, id=824, 803.0pt x 803.0pt>
 File: figures/acetate.png Graphic file (type png)
 <use figures/acetate.png>
-Package pdftex.def Info: figures/acetate.png  used on input line 88.
+Package pdftex.def Info: figures/acetate.png  used on input line 92.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/camera.jpg, id=744, 501.875pt x 501.875pt>
+<figures/camera.jpg, id=825, 501.875pt x 501.875pt>
 File: figures/camera.jpg Graphic file (type jpg)
 <use figures/camera.jpg>
-Package pdftex.def Info: figures/camera.jpg  used on input line 92.
+Package pdftex.def Info: figures/camera.jpg  used on input line 96.
 (pdftex.def)             Requested size: 85.35826pt x 85.3559pt.
-<figures/led.jpg, id=745, 1204.5pt x 962.59625pt>
+<figures/led.jpg, id=826, 1204.5pt x 962.59625pt>
 File: figures/led.jpg Graphic file (type jpg)
 <use figures/led.jpg>
-Package pdftex.def Info: figures/led.jpg  used on input line 96.
+Package pdftex.def Info: figures/led.jpg  used on input line 100.
 (pdftex.def)             Requested size: 85.35826pt x 68.21115pt.
-<figures/plate.jpg, id=746, 1204.5pt x 1204.5pt>
+<figures/plate.jpg, id=827, 1204.5pt x 1204.5pt>
 File: figures/plate.jpg Graphic file (type jpg)
 <use figures/plate.jpg>
-Package pdftex.def Info: figures/plate.jpg  used on input line 100.
+Package pdftex.def Info: figures/plate.jpg  used on input line 104.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/flat_bar.jpg, id=747, 610.73239pt x 610.73239pt>
+<figures/flat_bar.jpg, id=828, 610.73239pt x 610.73239pt>
 File: figures/flat_bar.jpg Graphic file (type jpg)
 <use figures/flat_bar.jpg>
-Package pdftex.def Info: figures/flat_bar.jpg  used on input line 104.
+Package pdftex.def Info: figures/flat_bar.jpg  used on input line 108.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/planks.jpg, id=748, 1084.05pt x 1084.05pt>
+<figures/planks.jpg, id=829, 1084.05pt x 1084.05pt>
 File: figures/planks.jpg Graphic file (type jpg)
 <use figures/planks.jpg>
-Package pdftex.def Info: figures/planks.jpg  used on input line 108.
+Package pdftex.def Info: figures/planks.jpg  used on input line 112.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/box.jpg, id=749, 1445.4pt x 1445.4pt>
+<figures/box.jpg, id=830, 1445.4pt x 1445.4pt>
 File: figures/box.jpg Graphic file (type jpg)
 <use figures/box.jpg>
-Package pdftex.def Info: figures/box.jpg  used on input line 112.
+Package pdftex.def Info: figures/box.jpg  used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 85.35284pt.
-<figures/belt.jpg, id=750, 1355.0625pt x 1258.7025pt>
+<figures/belt.jpg, id=831, 1355.0625pt x 1258.7025pt>
 File: figures/belt.jpg Graphic file (type jpg)
 <use figures/belt.jpg>
-Package pdftex.def Info: figures/belt.jpg  used on input line 116.
+Package pdftex.def Info: figures/belt.jpg  used on input line 120.
 (pdftex.def)             Requested size: 85.35826pt x 79.28331pt.
-<figures/relay.jpeg, id=751, 642.4pt x 642.4pt>
+<figures/relay.jpeg, id=832, 642.4pt x 642.4pt>
 File: figures/relay.jpeg Graphic file (type jpg)
 <use figures/relay.jpeg>
-Package pdftex.def Info: figures/relay.jpeg  used on input line 120.
+Package pdftex.def Info: figures/relay.jpeg  used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 85.35774pt.
 
-Overfull \hbox (8.40079pt too wide) in alignment at lines 47--123
+Overfull \hbox (8.40079pt too wide) in alignment at lines 51--127
  [] [] [] 
  []
 
-[40 <./figures/dc_motor.jpg> <./figures/adapter.jpg> <./figures/arduino.jpg> <.
-/figures/buck_converter.jpg> <./figures/transistor.jpg>] [41 <./figures/diode.j
-pg> <./figures/servo_motor.jpg> <./figures/ball_bearing.jpg> <./figures/bolts_n
-uts.jpg> <./figures/screws.jpg> <./figures/conveyor_roller.jpg>] [42 <./figures
-/timing_belt_pulley.jpg> <./figures/acetate.png> <./figures/camera.jpg> <./figu
-res/led.jpg> <./figures/plate.jpg>]
+[54 <./figures/dc_motor.jpg> <./figures/adapter.jpg> <./figures/arduino.jpg>]
+[55 <./figures/buck_converter.jpg> <./figures/transistor.jpg> <./figures/diode.
+jpg> <./figures/servo_motor.jpg> <./figures/ball_bearing.jpg> <./figures/bolts_
+nuts.jpg>] [56 <./figures/screws.jpg> <./figures/conveyor_roller.jpg> <./figure
+s/timing_belt_pulley.jpg> <./figures/acetate.png> <./figures/camera.jpg>]
+[57 <./figures/led.jpg> <./figures/plate.jpg> <./figures/flat_bar.jpg> <./figur
+es/planks.jpg> <./figures/box.jpg> <./figures/belt.jpg>]
 LaTeX Info: Symbol \textpeso not provided by
             font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 126.
-
-
-[43 <./figures/flat_bar.jpg> <./figures/planks.jpg> <./figures/box.jpg> <./figu
-res/belt.jpg> <./figures/relay.jpeg>]
-LaTeX Info: Symbol \textpeso not provided by
-            font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 139.
-LaTeX Info: Symbol \textpeso not provided by
-            font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 140.
-LaTeX Info: Symbol \textpeso not provided by
-            font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 141.
-LaTeX Info: Symbol \textpeso not provided by
-            font family ntxtlf in TS1 encoding.
-            Default family used instead on input line 142.
+            Default family used instead on input line 130.
 LaTeX Info: Symbol \textpeso not provided by
             font family ntxtlf in TS1 encoding.
             Default family used instead on input line 143.
@@ -1545,17 +1558,29 @@ LaTeX Info: Symbol \textpeso not provided by
             Default family used instead on input line 159.
 LaTeX Info: Symbol \textpeso not provided by
             font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 160.
+LaTeX Info: Symbol \textpeso not provided by
+            font family ntxtlf in TS1 encoding.
             Default family used instead on input line 161.
- [44] [45] [46]
-<figures/sinegraph.jpg, id=783, 713.66624pt x 471.7625pt>
+LaTeX Info: Symbol \textpeso not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 162.
+LaTeX Info: Symbol \textpeso not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 163.
+LaTeX Info: Symbol \textpeso not provided by
+            font family ntxtlf in TS1 encoding.
+            Default family used instead on input line 165.
+ [58 <./figures/relay.jpeg>] [59] [60]
+<figures/sinegraph.jpg, id=864, 713.66624pt x 471.7625pt>
 File: figures/sinegraph.jpg Graphic file (type jpg)
 <use figures/sinegraph.jpg>
-Package pdftex.def Info: figures/sinegraph.jpg  used on input line 292.
+Package pdftex.def Info: figures/sinegraph.jpg  used on input line 296.
 (pdftex.def)             Requested size: 278.2383pt x 183.92184pt.
-<figures/cosinegraph.jpg, id=784, 713.66624pt x 471.7625pt>
+<figures/cosinegraph.jpg, id=865, 713.66624pt x 471.7625pt>
 File: figures/cosinegraph.jpg Graphic file (type jpg)
 <use figures/cosinegraph.jpg>
-Package pdftex.def Info: figures/cosinegraph.jpg  used on input line 299.
+Package pdftex.def Info: figures/cosinegraph.jpg  used on input line 303.
 (pdftex.def)             Requested size: 260.7528pt x 172.36563pt.
 
 
@@ -1563,16 +1588,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[47]
+[61]
 
-[48 <./figures/sinegraph.jpg> <./figures/cosinegraph.jpg>]
+[62 <./figures/sinegraph.jpg> <./figures/cosinegraph.jpg>]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 Chapter 4.
 )
 
-[49
+[63
 
 
 
@@ -1584,21 +1609,21 @@ Chapter 4.
 Chapter 5.
 
 
-[50
+[64
 
 
 
 
 ]
 
-[51])
+[65])
 
-[52]
+[66]
 \openout2 = `appendix.aux'.
 
  (appendix.tex)
 
-[53
+[67
 
 
 
@@ -1617,21 +1642,21 @@ LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
 
 
-[54
+[68
 
 
 
 
 ]
 
-[55]
+[69]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 1120.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 1120.
 
 
-[56]
+[70]
 Underfull \hbox (badness 1077) in paragraph at lines 1164--1180
 \OT1/ntxtlf/m/n/12 Egg-plant [Com-puter soft-ware man-ual].  Re-trieved 2025-10
 -29, from
@@ -1651,12 +1676,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1164--1180
 
 ))
 
-[57]
+[71]
 \openout2 = `cv.aux'.
 
  (cv.tex)
 
-[58
+[72
 
 
 
@@ -1675,7 +1700,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 )
 
-[59
+[73
 
 
 
@@ -1689,9 +1714,9 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: A317FC8F9B1EAD3319A6181DDA2BEEFA;6301.
  ) 
 Here is how much of TeX's memory you used:
- 19659 strings out of 468080
- 313939 string characters out of 5423836
- 732431 words of memory out of 5000000
+ 19673 strings out of 468080
+ 314037 string characters out of 5423836
+ 734431 words of memory out of 5000000
  47704 multiletter control sequences out of 15000+600000
  676760 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1709,9 +1734,9 @@ ndra/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users
 /Alexandra/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/
 Users/Alexandra/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pf
 b>
-Output written on thesis.pdf (70 pages, 3517431 bytes).
+Output written on thesis.pdf (84 pages, 3550058 bytes).
 PDF statistics:
- 940 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
  463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

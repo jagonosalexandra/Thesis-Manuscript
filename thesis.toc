@@ -18,24 +18,24 @@
 \contentsline {section}{\numberline {2.1}Theoretical Background}{12}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Related Studies}{17}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Automated Quality Grading and Sorting Systems}{17}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Image Processing Techniques for Quality Assessment of Agricultural Produce}{29}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Feature Extraction and Classification Techniques for Quality Assessment of Agricultural Produce}{31}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Synthesis}{33}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design and Procedure}{37}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Hardware Development}{39}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{39}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{44}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Formula}{45}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tables}{45}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Images}{47}{section.3.5}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{49}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{50}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{51}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{52}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{53}{chapter*.20}%
-\contentsline {chapter}{REFERENCES}{54}{chapter*.20}%
-\contentsline {chapter}{CURRICULUM VITAE}{58}{chapter*.21}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{59}{chapter*.21}%
+\contentsline {subsection}{\numberline {2.2.2}Image Processing Techniques for Quality Assessment of Agricultural Produce}{30}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Feature Extraction and Classification Techniques for Quality Assessment of Agricultural Produce}{39}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Synthesis}{48}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{51}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design and Procedure}{51}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Hardware Development}{53}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{54}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{58}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Formula}{59}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tables}{59}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Images}{61}{section.3.5}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{63}{chapter.4}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{64}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{64}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{65}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{66}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{67}{chapter*.20}%
+\contentsline {chapter}{REFERENCES}{68}{chapter*.20}%
+\contentsline {chapter}{CURRICULUM VITAE}{72}{chapter*.21}%
+\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{73}{chapter*.21}%
 \contentsfinish 
