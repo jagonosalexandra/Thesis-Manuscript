@@ -1,5 +1,71 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'thesis.blg'
-[282] biber-MSWIN64:342> INFO - === 
-[1157] Utils.pm:479> ERROR - Cannot find 'thesis.bcf'!
-[1158] Biber.pm:137> INFO - ERRORS: 1
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter1.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter2.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter3.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter4.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter5.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: appendix.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: bibliography.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+A level-1 auxiliary file: cv.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+A level-1 auxiliary file: caa.aux
+Database file #1: references.bib
+Warning--can't use both volume and number fields in goodfellow2016deep
+Warning--there's a number but no volume in haralick2007textural
+Warning--empty booktitle in he2022cohens
+Warning--can't use both author and editor fields in mamaril2021eggplantcomics
+You've used 30 entries,
+            1940 wiz_defined-function locations,
+            674 strings with 9632 characters,
+and the built_in function-call counts, 11573 in all, are:
+= -- 1125
+> -- 458
+< -- 22
++ -- 156
+- -- 152
+* -- 1010
+:= -- 2017
+add.period$ -- 98
+call.type$ -- 30
+change.case$ -- 217
+chr.to.int$ -- 30
+cite$ -- 34
+duplicate$ -- 454
+empty$ -- 808
+format.name$ -- 192
+if$ -- 2239
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 158
+num.names$ -- 90
+pop$ -- 205
+preamble$ -- 1
+purify$ -- 226
+quote$ -- 0
+skip$ -- 333
+stack$ -- 0
+substring$ -- 728
+swap$ -- 91
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 4
+while$ -- 93
+width$ -- 0
+write$ -- 397
+(There were 4 warnings)
