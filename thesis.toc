@@ -17,17 +17,20 @@
 \contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Preliminary Concepts and Results}{6}{section.2.1}%
 \contentsline {chapter}{\numberline {3}METHODOLOGY}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Formula}{7}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tables}{7}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Images}{9}{section.3.4}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{14}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{15}{chapter*.10}%
-\contentsline {chapter}{REFERENCES}{16}{chapter*.10}%
-\contentsline {chapter}{CURRICULUM VITAE}{17}{chapter*.11}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{18}{chapter*.11}%
+\contentsline {section}{\numberline {3.1}Research Design and Procedure}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Hardware Development}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{14}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Formula}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tables}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Images}{18}{section.3.5}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{23}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{24}{chapter*.11}%
+\contentsline {chapter}{REFERENCES}{25}{chapter*.11}%
+\contentsline {chapter}{CURRICULUM VITAE}{25}{chapter*.11}%
+\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{26}{chapter*.11}%
 \contentsfinish 
