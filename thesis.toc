@@ -9,25 +9,28 @@
 \contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background of the Study}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objectives of the Study}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Significance of the Study}{7}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Scope and Limitations}{9}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Definition of Terms}{10}{section.1.6}%
-\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Theoretical Background}{12}{section.2.1}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Research Design}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Formula}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Tables}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Images}{20}{section.3.4}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{22}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{23}{section.5.1}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives of the Study}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Significance of the Study}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Definition of Terms}{3}{section.1.6}%
+\contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Theoretical Background}{5}{section.2.1}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Research Design and Procedure}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Hardware Development}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Formula}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tables}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Images}{21}{section.3.5}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{23}{chapter.4}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{24}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Conclusion}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{27}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{28}{chapter*.11}%
-\contentsline {chapter}{REFERENCES}{29}{chapter*.11}%
-\contentsline {chapter}{CURRICULUM VITAE}{32}{chapter*.12}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{34}{chapter*.12}%
+\contentsline {section}{\numberline {5.3}Recommendations}{26}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{27}{chapter*.11}%
+\contentsline {chapter}{REFERENCES}{28}{chapter*.11}%
+\contentsline {chapter}{CURRICULUM VITAE}{28}{chapter*.11}%
+\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{29}{chapter*.11}%
 \contentsfinish 
