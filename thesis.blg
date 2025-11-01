@@ -15,57 +15,62 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: appendix.aux
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: bibliography.aux
-Reallocating 'name_of_file' (item size: 1) to 4 items.
-The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 A level-1 auxiliary file: cv.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: caa.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
-Warning--can't use both volume and number fields in goodfellow2016deep
-Warning--there's a number but no volume in haralick2007textural
-Warning--empty booktitle in he2022cohens
-Warning--can't use both author and editor fields in mamaril2021eggplantcomics
-You've used 30 entries,
-            1940 wiz_defined-function locations,
-            674 strings with 9632 characters,
-and the built_in function-call counts, 11573 in all, are:
-= -- 1125
-> -- 458
-< -- 22
-+ -- 156
-- -- 152
-* -- 1010
-:= -- 2017
-add.period$ -- 98
-call.type$ -- 30
-change.case$ -- 217
-chr.to.int$ -- 30
-cite$ -- 34
-duplicate$ -- 454
-empty$ -- 808
-format.name$ -- 192
-if$ -- 2239
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 158
-num.names$ -- 90
-pop$ -- 205
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 48 entries,
+            6951 wiz_defined-function locations,
+            1589 strings with 21429 characters,
+and the built_in function-call counts, 104797 in all, are:
+= -- 12925
+> -- 926
+< -- 5233
++ -- 5509
+- -- 110
+* -- 6857
+:= -- 19226
+add.period$ -- 212
+call.type$ -- 48
+change.case$ -- 871
+chr.to.int$ -- 0
+cite$ -- 96
+duplicate$ -- 2949
+empty$ -- 3882
+format.name$ -- 1598
+if$ -- 19589
+int.to.chr$ -- 0
+int.to.str$ -- 152
+missing$ -- 0
+newline$ -- 1288
+num.names$ -- 386
+pop$ -- 2002
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 208
 quote$ -- 0
-skip$ -- 333
+skip$ -- 6225
 stack$ -- 0
-substring$ -- 728
-swap$ -- 91
-text.length$ -- 5
+substring$ -- 6030
+swap$ -- 1666
+text.length$ -- 167
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 170
-warning$ -- 4
-while$ -- 93
+top$ -- 1
+type$ -- 4416
+warning$ -- 0
+while$ -- 580
 width$ -- 0
-write$ -- 397
-(There were 4 warnings)
+write$ -- 1644

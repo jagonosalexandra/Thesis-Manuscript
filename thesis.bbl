@@ -1,186 +1,1414 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Awasthi}{2021}]{awasthi2021development}
-Awasthi, A. (2021).
-\newblock {\em Development and Fabrication of a Power Operated Low-Cost
-  Small-Scale Fruit and Vegetable Grading Machine}.
-\newblock PhD thesis, Punjab Agricultureal University Ludhiana.
+\bibitem [\protect \citeauthoryear {%
+Alqethami%
+, Alzhrani%
+, Almtanni%
+\BCBL {}\ \BBA {} Alghamdi%
+}{%
+Alqethami%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Alqethami2022}
+\APACinsertmetastar {%
+Alqethami2022}%
+\begin{APACrefauthors}%
+Alqethami, S.%
+, Alzhrani, W.%
+, Almtanni, B.%
+\BCBL {}\ \BBA {} Alghamdi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Disease Detection in Apple Leaves Using Image Processing
+  Techniques} {Disease detection in apple leaves using image processing
+  techniques}\ \APACbVolEdTR{\BVOL~12}{\BTR{}}.
+\newblock
+\begin{APACrefURL} \url{www.etasr.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{BAFPS}}{2007}]{PNSBAFPS522007_Eggplant}
-{BAFPS} (2007).
-\newblock {\em {PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading and
-  Classification}}.
-\newblock Quezon City, Philippines.
-\newblock As cited in Pinakbet Adventures ni Pina: Komik Serye.
+\bibitem [\protect \citeauthoryear {%
+Amna%
+\ \protect \BOthers {.}}{%
+Amna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+amna2023machine}
+\APACinsertmetastar {%
+amna2023machine}%
+\begin{APACrefauthors}%
+Amna%
+, Akram, M\BPBI W.%
+, Li, G.%
+, Akram, M\BPBI Z.%
+, Faheem, M.%
+, Omar, M\BPBI M.%
+\BCBL {}\ \BBA {} Hassan, M\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine vision-based automatic fruit quality detection
+  and grading} {Machine vision-based automatic fruit quality detection and
+  grading}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers of Agricultural Science and
+  Engineering}{12}{}{274-287}.
+\newblock
+\begin{APACrefDOI} \doi{10.15302/J-FASE-2023532} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bansal and Uddin}{2023}]{bansal2023computer}
-Bansal, J.~C. and Uddin, M.~S. (2023).
-\newblock Computer vision and machine learning in agriculture: An introduction.
-\newblock In {\em Computer Vision and Machine Learning in Agriculture, Volume
-  3}, pages 1--18. Springer.
+\bibitem [\protect \citeauthoryear {%
+Awasthi%
+}{%
+Awasthi%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+awasthi2021development}
+\APACinsertmetastar {%
+awasthi2021development}%
+\begin{APACrefauthors}%
+Awasthi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2021}.
+\unskip\
+\newblock
+\APACrefbtitle {Development and Fabrication of a Power Operated Low-Cost
+  Small-Scale Fruit and Vegetable Grading Machine} {Development and fabrication
+  of a power operated low-cost small-scale fruit and vegetable grading
+  machine}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Punjab Agricultureal University Ludhiana}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bharman et~al.}{2022}]{bharman2022deep}
-Bharman, P., Saad, S.~A., Khan, S., Jahan, I., Ray, M., and Biswas, M. (2022).
-\newblock Deep learning in agriculture: a review.
-\newblock {\em Asian Journal of Research in Computer Science}, 13(2):28--47.
+\bibitem [\protect \citeauthoryear {%
+Azadnia%
+, Fouladi%
+\BCBL {}\ \BBA {} Jahanbakhshi%
+}{%
+Azadnia%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Azadnia2023}
+\APACinsertmetastar {%
+Azadnia2023}%
+\begin{APACrefauthors}%
+Azadnia, R.%
+, Fouladi, S.%
+\BCBL {}\ \BBA {} Jahanbakhshi, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{3}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Intelligent detection and waste control of hawthorn
+  fruit based on ripening level using machine vision system and deep learning
+  techniques} {Intelligent detection and waste control of hawthorn fruit based
+  on ripening level using machine vision system and deep learning
+  techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Results in Engineering}{17}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.rineng.2023.100891} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bolton}{2015}]{bolton2015programmable}
-Bolton, W. (2015).
-\newblock {\em Programmable logic controllers}.
-\newblock Newnes.
+\bibitem [\protect \citeauthoryear {%
+{BAFPS}%
+}{%
+{BAFPS}%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+PNSBAFPS522007_Eggplant}
+\APACinsertmetastar {%
+PNSBAFPS522007_Eggplant}%
+\begin{APACrefauthors}%
+{BAFPS}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\APACrefbtitle {{PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading and
+  Classification}} {{PNS/BAFPS 52:2007 Fresh vegetables - Eggplant - Grading
+  and Classification}}\ [Philippine National Standard].
+\newblock
+\APACaddressPublisher{Quezon City, Philippines}{}.
+\newblock
+\begin{APACrefURL} \url{www.bafs.da.gov.ph} \end{APACrefURL}
+\newblock
+\APACrefnote{As cited in Pinakbet Adventures ni Pina: Komik Serye}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Breiman}{2001}]{breiman2001random}
-Breiman, L. (2001).
-\newblock Random forests.
-\newblock {\em Machine learning}, 45(1):5--32.
+\bibitem [\protect \citeauthoryear {%
+Bansal%
+\ \BBA {} Uddin%
+}{%
+Bansal%
+\ \BBA {} Uddin%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+bansal2023computer}
+\APACinsertmetastar {%
+bansal2023computer}%
+\begin{APACrefauthors}%
+Bansal, J\BPBI C.%
+\BCBT {}\ \BBA {} Uddin, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Computer Vision and Machine Learning in Agriculture: An
+  Introduction} {Computer vision and machine learning in agriculture: An
+  introduction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Computer Vision and Machine Learning in Agriculture,
+  Volume 3} {Computer vision and machine learning in agriculture, volume 3}\
+  (\BPGS\ 1--18).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Bu et~al.}{2025}]{bu2025grading}
-Bu, Y., Liu, H., Li, H., Murengami, B.~G., Wang, X., and Chen, X. (2025).
-\newblock Grading algorithm for orah sorting line based on improved shufflenet
-  v2.
-\newblock {\em Applied Sciences}, 15(8):4483.
+\bibitem [\protect \citeauthoryear {%
+Bharman%
+\ \protect \BOthers {.}}{%
+Bharman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+bharman2022deep}
+\APACinsertmetastar {%
+bharman2022deep}%
+\begin{APACrefauthors}%
+Bharman, P.%
+, Saad, S\BPBI A.%
+, Khan, S.%
+, Jahan, I.%
+, Ray, M.%
+\BCBL {}\ \BBA {} Biswas, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning in agriculture: a review} {Deep learning
+  in agriculture: a review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Asian Journal of Research in Computer
+  Science}{13}{2}{28--47}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Dougherty}{2020}]{dougherty2020digital}
-Dougherty, E.~R. (2020).
-\newblock {\em Digital image processing methods}.
-\newblock CRC Press.
+\bibitem [\protect \citeauthoryear {%
+Bolton%
+}{%
+Bolton%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+bolton2015programmable}
+\APACinsertmetastar {%
+bolton2015programmable}%
+\begin{APACrefauthors}%
+Bolton, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Programmable logic controllers} {Programmable logic
+  controllers}.
+\newblock
+\APACaddressPublisher{}{Newnes}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{Food and Agriculture Organization of the United
-  Nations}}{2025}]{fao2025eggplant}
-{Food and Agriculture Organization of the United Nations} (2025).
-\newblock {\em {FAOSTAT: Production (Crops and livestock products) - Eggplants
-  (aubergines)}}.
-\newblock FAO.
-\newblock Data retrieved for item 'Eggplants (aubergines)'.
+\bibitem [\protect \citeauthoryear {%
+Breiman%
+}{%
+Breiman%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+breiman2001random}
+\APACinsertmetastar {%
+breiman2001random}%
+\begin{APACrefauthors}%
+Breiman, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Random forests} {Random forests}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Machine learning}{45}{1}{5--32}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Goodfellow et~al.}{2016}]{goodfellow2016deep}
-Goodfellow, I., Bengio, Y., Courville, A., and Bengio, Y. (2016).
-\newblock {\em Deep learning}, volume~1.
-\newblock MIT press Cambridge.
+\bibitem [\protect \citeauthoryear {%
+Bu%
+\ \protect \BOthers {.}}{%
+Bu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+bu2025grading}
+\APACinsertmetastar {%
+bu2025grading}%
+\begin{APACrefauthors}%
+Bu, Y.%
+, Liu, H.%
+, Li, H.%
+, Murengami, B\BPBI G.%
+, Wang, X.%
+\BCBL {}\ \BBA {} Chen, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Grading Algorithm for Orah Sorting Line Based on
+  Improved ShuffleNet V2} {Grading algorithm for orah sorting line based on
+  improved shufflenet v2}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences}{15}{8}{4483}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Haque and Sohel}{2022}]{haque2022deepnetwork}
-Haque, M.~R. and Sohel, F. (2022).
-\newblock Deep network with score level fusion and inference-based transfer
-  learning to recognize leaf blight and fruit rot diseases of eggplant.
-\newblock {\em Agriculture}, 12(8).
+\bibitem [\protect \citeauthoryear {%
+Chandra%
+\ \protect \BOthers {.}}{%
+Chandra%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Chandra2024}
+\APACinsertmetastar {%
+Chandra2024}%
+\begin{APACrefauthors}%
+Chandra, S\BPBI S.%
+, Dharmika, D.%
+, Vijayadurgarao, G.%
+, Sandeep, M.%
+, Ganesh, N.%
+\BCBL {}\ \BBA {} Info, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fruit Classification based on Shape, Color and Texture
+  using Image Processing Techniques} {Fruit classification based on shape,
+  color and texture using image processing techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal for Modern Trends in Science and
+  Technology}{10}{}{100-107}.
+\newblock
+\begin{APACrefDOI} \doi{10.46501/IJMTST1003017} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Haralick et~al.}{2007}]{haralick2007textural}
-Haralick, R.~M., Shanmugam, K., and Dinstein, I.~H. (2007).
-\newblock Textural features for image classification.
-\newblock {\em IEEE Transactions on systems, man, and cybernetics},
-  (6):610--621.
+\bibitem [\protect \citeauthoryear {%
+Doan%
+\ \BBA {} Le-Thi%
+}{%
+Doan%
+\ \BBA {} Le-Thi%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Doan2023}
+\APACinsertmetastar {%
+Doan2023}%
+\begin{APACrefauthors}%
+Doan, T\BHBI N.%
+\BCBT {}\ \BBA {} Le-Thi, D\BHBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {A Novel Mango Grading System Based on Image Processing and
+  Machine Learning Methods} {A novel mango grading system based on image
+  processing and machine learning methods}\ \APACbVolEdTR{\BVOL~14}{\BTR{}}.
+\newblock
+\begin{APACrefURL} \url{www.ijacsa.thesai.org} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{He et~al.}{2022}]{he2022cohens}
-He, M., Baker, R., Hutt, S., and Zhang, J. (2022).
-\newblock A less overconservative method for reliability estimation for cohen's
-  kappa.
+\bibitem [\protect \citeauthoryear {%
+Dougherty%
+}{%
+Dougherty%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+dougherty2020digital}
+\APACinsertmetastar {%
+dougherty2020digital}%
+\begin{APACrefauthors}%
+Dougherty, E\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2020}.
+\newblock
+\APACrefbtitle {Digital image processing methods} {Digital image processing
+  methods}.
+\newblock
+\APACaddressPublisher{}{CRC Press}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Hearst et~al.}{1998}]{hearst1998support}
-Hearst, M.~A., Dumais, S.~T., Osuna, E., Platt, J., and Scholkopf, B. (1998).
-\newblock Support vector machines.
-\newblock {\em IEEE Intelligent Systems and their applications}, 13(4):18--28.
+\bibitem [\protect \citeauthoryear {%
+{Food and Agriculture Organization of the United Nations}%
+}{%
+{Food and Agriculture Organization of the United Nations}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+fao2025eggplant}
+\APACinsertmetastar {%
+fao2025eggplant}%
+\begin{APACrefauthors}%
+{Food and Agriculture Organization of the United Nations}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{FAOSTAT: Production (Crops and livestock products) -
+  Eggplants (aubergines)}} {{FAOSTAT: Production (Crops and livestock products)
+  - Eggplants (aubergines)}}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://www.fao.org/faostat/en/#data/QCL}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Data retrieved for item 'Eggplants (aubergines)'}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Khan and AlGhamdi}{2024}]{khan2024intelligent}
-Khan, A. and AlGhamdi, M. (2024).
-\newblock An intelligent and fast system for detection of grape diseases in
-  rgb, grayscale, ycbcr, hsv and l* a* b* color spaces.
-\newblock {\em Multimedia Tools and Applications}, 83(17):50381--50399.
+\bibitem [\protect \citeauthoryear {%
+Goodfellow%
+, Bengio%
+, Courville%
+\BCBL {}\ \BBA {} Bengio%
+}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+goodfellow2016deep}
+\APACinsertmetastar {%
+goodfellow2016deep}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Bengio, Y.%
+, Courville, A.%
+\BCBL {}\ \BBA {} Bengio, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {Deep learning} {Deep learning}\ (\BVOL~1)\ (\BNUM~2).
+\newblock
+\APACaddressPublisher{}{MIT press Cambridge}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Kumar and Sodhi}{2020}]{kumar2020comparative}
-Kumar, A. and Sodhi, S.~S. (2020).
-\newblock Comparative analysis of gaussian filter, median filter and denoise
-  autoenocoder.
-\newblock In {\em 2020 7th international conference on computing for
-  sustainable global development (INDIACom)}, pages 45--51. IEEE.
+\bibitem [\protect \citeauthoryear {%
+Haque%
+\ \BBA {} Sohel%
+}{%
+Haque%
+\ \BBA {} Sohel%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+haque2022deepnetwork}
+\APACinsertmetastar {%
+haque2022deepnetwork}%
+\begin{APACrefauthors}%
+Haque, M\BPBI R.%
+\BCBT {}\ \BBA {} Sohel, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{8}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep Network with Score Level Fusion and Inference-Based
+  Transfer Learning to Recognize Leaf Blight and Fruit Rot Diseases of
+  Eggplant} {Deep network with score level fusion and inference-based transfer
+  learning to recognize leaf blight and fruit rot diseases of eggplant}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Agriculture (Switzerland)}{12}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/agriculture12081160} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Kursun and Koklu}{2025}]{kursun2025conference}
-Kursun, R. and Koklu, M. (2025).
-\newblock Effectiveness of sift features in enhancing watermelon leaf disease
-  classification accuracy.
-\newblock In {\em 2025 International Conference on Computer Systems and
-  Technologies (CompSysTech)}, pages 1--6.
+\bibitem [\protect \citeauthoryear {%
+Haralick%
+, Shanmugam%
+\BCBL {}\ \BBA {} Dinstein%
+}{%
+Haralick%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+haralick2007textural}
+\APACinsertmetastar {%
+haralick2007textural}%
+\begin{APACrefauthors}%
+Haralick, R\BPBI M.%
+, Shanmugam, K.%
+\BCBL {}\ \BBA {} Dinstein, I\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Textural features for image classification} {Textural
+  features for image classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on systems, man, and
+  cybernetics}{}{6}{610--621}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{LeCun et~al.}{2015}]{lecun2015deep}
-LeCun, Y., Bengio, Y., and Hinton, G. (2015).
-\newblock Deep learning.
-\newblock {\em nature}, 521(7553):436--444.
+\bibitem [\protect \citeauthoryear {%
+He%
+, Baker%
+, Hutt%
+\BCBL {}\ \BBA {} Zhang%
+}{%
+He%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+he2022cohens}
+\APACinsertmetastar {%
+he2022cohens}%
+\begin{APACrefauthors}%
+He, M.%
+, Baker, R.%
+, Hutt, S.%
+\BCBL {}\ \BBA {} Zhang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{10}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Less Overconservative Method for Reliability
+  Estimation for Cohen's Kappa} {A less overconservative method for reliability
+  estimation for cohen's kappa}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Lee}{2008}]{lee2008cyber}
-Lee, E.~A. (2008).
-\newblock Cyber physical systems: Design challenges.
-\newblock In {\em 2008 11th IEEE international symposium on object and
-  component-oriented real-time distributed computing (ISORC)}, pages 363--369.
-  IEEE.
+\bibitem [\protect \citeauthoryear {%
+Hearst%
+, Dumais%
+, Osuna%
+, Platt%
+\BCBL {}\ \BBA {} Scholkopf%
+}{%
+Hearst%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1998}}%
+}]{%
+hearst1998support}
+\APACinsertmetastar {%
+hearst1998support}%
+\begin{APACrefauthors}%
+Hearst, M\BPBI A.%
+, Dumais, S\BPBI T.%
+, Osuna, E.%
+, Platt, J.%
+\BCBL {}\ \BBA {} Scholkopf, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Support vector machines} {Support vector
+  machines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Intelligent Systems and their
+  applications}{13}{4}{18--28}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Lee et~al.}{2023}]{lee2023multi}
-Lee, J.-H., Vo, H.-T., Kwon, G.-J., Kim, H.-G., and Kim, J.-Y. (2023).
-\newblock Multi-camera-based sorting system for surface defects of apples.
-\newblock {\em Sensors}, 23(8).
+\bibitem [\protect \citeauthoryear {%
+Hu%
+\ \protect \BOthers {.}}{%
+Hu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+hu2021infield}
+\APACinsertmetastar {%
+hu2021infield}%
+\begin{APACrefauthors}%
+Hu, G.%
+, Zhang, E.%
+, Zhou, J.%
+, Zhao, J.%
+, Gao, Z.%
+, Sugirbay, A.%
+\BDBL {}Chen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Infield apple detection and grading based on
+  multi-feature fusion} {Infield apple detection and grading based on
+  multi-feature fusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Horticulturae}{7}{9}{276}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Mandigma et~al.}{2021}]{mamaril2021eggplantcomics}
-Mandigma, M. G.~R., Reyes, A.~V., and Tecson, J. V.~D. (2021).
-\newblock {\em {Pinakbet Adventures ni Pina}: Komik Serye tungkol sa mga
-  sumusunod na Philippine National Standards (PNS)}.
-\newblock {Bureau of Agriculture and Fisheries Standards (BAFS)}, Diliman,
-  Quezon City.
-\newblock ISBN 978-621-455-226-9 (PDF).
+\bibitem [\protect \citeauthoryear {%
+Hu%
+\ \protect \BOthers {.}}{%
+Hu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Hu2021}
+\APACinsertmetastar {%
+Hu2021}%
+\begin{APACrefauthors}%
+Hu, G.%
+, Zhang, E.%
+, Zhou, J.%
+, Zhao, J.%
+, Gao, Z.%
+, Sugirbay, A.%
+\BDBL {}Chen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021{\protect \BCnt {2}}}{9}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Infield apple detection and grading based on
+  multi-feature fusion} {Infield apple detection and grading based on
+  multi-feature fusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Horticulturae}{7}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/horticulturae7090276} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{McHugh}{2012}]{mchugh2012interrater}
-McHugh, M.~L. (2012).
-\newblock Interrater reliability: the kappa statistic.
-\newblock {\em Biochemia medica}, 22(3):276--282.
+\bibitem [\protect \citeauthoryear {%
+Iqbal%
+\ \BBA {} Talukder%
+}{%
+Iqbal%
+\ \BBA {} Talukder%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Iqbal2020}
+\APACinsertmetastar {%
+Iqbal2020}%
+\begin{APACrefauthors}%
+Iqbal, M\BPBI A.%
+\BCBT {}\ \BBA {} Talukder, K\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{8}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of Potato Disease Using Image Segmentation and
+  Machine Learning} {Detection of potato disease using image segmentation and
+  machine learning}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 International Conference on Wireless
+  Communications, Signal Processing and Networking, WiSPNET 2020} {2020
+  international conference on wireless communications, signal processing and
+  networking, wispnet 2020}\ (\BPG~43-47).
+\newblock
+\APACaddressPublisher{}{Institute of Electrical and Electronics Engineers Inc.}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/WiSPNET48689.2020.9198563} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Ojala et~al.}{2002}]{ojala2002multiresolution}
-Ojala, T., Pietikainen, M., and Maenpaa, T. (2002).
-\newblock Multiresolution gray-scale and rotation invariant texture
-  classification with local binary patterns.
-\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
-  24(7):971--987.
+\bibitem [\protect \citeauthoryear {%
+Javidan%
+, Banakar%
+, Vakilian%
+\BCBL {}\ \BBA {} Ampatzidis%
+}{%
+Javidan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Javidan2023}
+\APACinsertmetastar {%
+Javidan2023}%
+\begin{APACrefauthors}%
+Javidan, S\BPBI M.%
+, Banakar, A.%
+, Vakilian, K\BPBI A.%
+\BCBL {}\ \BBA {} Ampatzidis, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{2}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Diagnosis of grape leaf diseases using automatic K-means
+  clustering and machine learning} {Diagnosis of grape leaf diseases using
+  automatic k-means clustering and machine learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Smart Agricultural Technology}{3}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.atech.2022.100081} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{Philippine Statistics
-  Authority}}{2025}]{psa2025eggplant}
-{Philippine Statistics Authority} (2025).
-\newblock {\em {Philippines Production: Value: Crops: Eggplant}}.
-\newblock Philippine Statistics Authority.
-\newblock As reported by CEIC.
+\bibitem [\protect \citeauthoryear {%
+Kazi%
+\ \BBA {} Kutubuddin%
+}{%
+Kazi%
+\ \BBA {} Kutubuddin%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Kazi2023}
+\APACinsertmetastar {%
+Kazi2023}%
+\begin{APACrefauthors}%
+Kazi, S.%
+\BCBT {}\ \BBA {} Kutubuddin, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Fruit Grading, Disease Detection, and an Image Processing
+  Strategy} {Fruit grading, disease detection, and an image processing
+  strategy}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\begin{APACrefURL} \url{www.matjournals.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{PNS}}{2019}]{BAFS2019PhilGAP}
-{PNS} (2019).
-\newblock {Philippine National Standard on Good Agricultural Practices
-  (PNS-GAP): "Gabay para sa ligtas na pagkain"}.
-\newblock Diliman, Quezon City, Philippines.
-\newblock Story by Mandigma, M. G. R., and Tecson, J. V. D. R.; Arts and
-  Graphics by Reyes, A. V.
+\bibitem [\protect \citeauthoryear {%
+Khan%
+\ \BBA {} AlGhamdi%
+}{%
+Khan%
+\ \BBA {} AlGhamdi%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+khan2024intelligent}
+\APACinsertmetastar {%
+khan2024intelligent}%
+\begin{APACrefauthors}%
+Khan, A.%
+\BCBT {}\ \BBA {} AlGhamdi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An intelligent and fast system for detection of grape
+  diseases in RGB, grayscale, YCbCr, HSV and L* a* b* color spaces} {An
+  intelligent and fast system for detection of grape diseases in rgb,
+  grayscale, ycbcr, hsv and l* a* b* color spaces}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Multimedia Tools and
+  Applications}{83}{17}{50381--50399}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Szeliski}{2022}]{szeliski2022computer}
-Szeliski, R. (2022).
-\newblock {\em Computer vision: algorithms and applications}.
-\newblock Springer Nature.
+\bibitem [\protect \citeauthoryear {%
+A.~Kumar%
+\ \BBA {} Sodhi%
+}{%
+A.~Kumar%
+\ \BBA {} Sodhi%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+kumar2020comparative}
+\APACinsertmetastar {%
+kumar2020comparative}%
+\begin{APACrefauthors}%
+Kumar, A.%
+\BCBT {}\ \BBA {} Sodhi, S\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparative analysis of gaussian filter, median filter
+  and denoise autoenocoder} {Comparative analysis of gaussian filter, median
+  filter and denoise autoenocoder}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2020 7th international conference on computing for
+  sustainable global development (INDIACom)} {2020 7th international conference
+  on computing for sustainable global development (indiacom)}\ (\BPGS\ 45--51).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{{USDA}}{2013}]{USDA2013EggplantStandards}
-{USDA} (2013).
-\newblock {\em {United States Standards for Grades of Eggplant, $\S51.2190$ to
-  $\S51.2207$}}.
-\newblock Washington, D.C., effective february 4, 2013 edition.
-\newblock Supersedes third issue effective October 29, 1953.
+\bibitem [\protect \citeauthoryear {%
+K\BPBI A.~Kumar%
+, Singh%
+, Maurya%
+, Narasimha%
+\BCBL {}\ \BBA {} Raut%
+}{%
+K\BPBI A.~Kumar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+kumar2024transfer}
+\APACinsertmetastar {%
+kumar2024transfer}%
+\begin{APACrefauthors}%
+Kumar, K\BPBI A.%
+, Singh, A.%
+, Maurya, R\BPBI L.%
+, Narasimha, D.%
+\BCBL {}\ \BBA {} Raut, S\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Transfer-learning based multi-class areca nut image
+  classification under uncontrolled lighting on a conveyor system for automated
+  sorting} {Transfer-learning based multi-class areca nut image classification
+  under uncontrolled lighting on a conveyor system for automated
+  sorting}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2024 IEEE Conference on Engineering Informatics (ICEI)}
+  {2024 ieee conference on engineering informatics (icei)}\ (\BPGS\ 1--7).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Xu et~al.}{2024}]{xu2024design}
-Xu, J., Lu, Y., and Deng, B. (2024).
-\newblock Design, prototyping, and evaluation of a new machine vision-based
-  automated sweetpotato grading and sorting system.
-\newblock {\em Journal of the ASABE}, 67(5):1369--1380.
+\bibitem [\protect \citeauthoryear {%
+Kursun%
+\ \BBA {} Koklu%
+}{%
+Kursun%
+\ \BBA {} Koklu%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Kursun2025}
+\APACinsertmetastar {%
+Kursun2025}%
+\begin{APACrefauthors}%
+Kursun, R.%
+\BCBT {}\ \BBA {} Koklu, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {Classification of Eggplant Diseases Using Feature Extraction
+  with AlexNet and Random Forest} {Classification of eggplant diseases using
+  feature extraction with alexnet and random forest}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\begin{APACrefURL} \url{https://as-proceeding.com/index.php/iccar/home}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Zhang et~al.}{2022}]{zhang2022advancements}
-Zhang, K., Shi, Y., Karnouskos, S., Sauter, T., Fang, H., and Colombo, A.~W.
-  (2022).
-\newblock Advancements in industrial cyber-physical systems: An overview and
-  perspectives.
-\newblock {\em IEEE Transactions on Industrial Informatics}, 19(1):716--729.
+\bibitem [\protect \citeauthoryear {%
+Kursun%
+\ \BBA {} Koklu%
+}{%
+Kursun%
+\ \BBA {} Koklu%
+}{%
+{\protect \APACyear {2025}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+kursun2025conference}
+\APACinsertmetastar {%
+kursun2025conference}%
+\begin{APACrefauthors}%
+Kursun, R.%
+\BCBT {}\ \BBA {} Koklu, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effectiveness of SIFT Features in Enhancing Watermelon
+  Leaf Disease Classification Accuracy} {Effectiveness of sift features in
+  enhancing watermelon leaf disease classification accuracy}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2025 International Conference on Computer Systems and
+  Technologies (CompSysTech)} {2025 international conference on computer
+  systems and technologies (compsystech)}\ (\BPG~1-6).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/CompSysTech65493.2025.11137117}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem[\protect\astroncite{Zhang et~al.}{2021}]{zhang2021development}
-Zhang, Z., Lu, Y., and Lu, R. (2021).
-\newblock Development and evaluation of an apple infield grading and sorting
-  system.
-\newblock {\em Postharvest Biology and Technology}, 180:111588.
+\bibitem [\protect \citeauthoryear {%
+LeCun%
+, Bengio%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+LeCun%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+lecun2015deep}
+\APACinsertmetastar {%
+lecun2015deep}%
+\begin{APACrefauthors}%
+LeCun, Y.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Hinton, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Deep learning} {Deep learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{nature}{521}{7553}{436--444}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+E\BPBI A.~Lee%
+}{%
+E\BPBI A.~Lee%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+lee2008cyber}
+\APACinsertmetastar {%
+lee2008cyber}%
+\begin{APACrefauthors}%
+Lee, E\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cyber physical systems: Design challenges} {Cyber
+  physical systems: Design challenges}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2008 11th IEEE international symposium on object and
+  component-oriented real-time distributed computing (ISORC)} {2008 11th ieee
+  international symposium on object and component-oriented real-time
+  distributed computing (isorc)}\ (\BPGS\ 363--369).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J\BHBI H.~Lee%
+, Vo%
+, Kwon%
+, Kim%
+\BCBL {}\ \BBA {} Kim%
+}{%
+J\BHBI H.~Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+lee2023multi}
+\APACinsertmetastar {%
+lee2023multi}%
+\begin{APACrefauthors}%
+Lee, J\BHBI H.%
+, Vo, H\BHBI T.%
+, Kwon, G\BHBI J.%
+, Kim, H\BHBI G.%
+\BCBL {}\ \BBA {} Kim, J\BHBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-Camera-Based Sorting System for Surface Defects of
+  Apples} {Multi-camera-based sorting system for surface defects of
+  apples}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{23}{8}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/1424-8220/23/8/3968}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s23083968} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+\ \protect \BOthers {.}}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+liu2024design}
+\APACinsertmetastar {%
+liu2024design}%
+\begin{APACrefauthors}%
+Liu, F.%
+, Zhang, Y.%
+, Du, C.%
+, Ren, X.%
+, Huang, B.%
+\BCBL {}\ \BBA {} Chai, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design and experimentation of a machine vision-based
+  cucumber quality grader} {Design and experimentation of a machine
+  vision-based cucumber quality grader}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Foods}{13}{4}{606}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Luo%
+, Luo%
+, Cheng%
+\BCBL {}\ \BBA {} Liu%
+}{%
+Luo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Luo2024}
+\APACinsertmetastar {%
+Luo2024}%
+\begin{APACrefauthors}%
+Luo, D.%
+, Luo, R.%
+, Cheng, J.%
+\BCBL {}\ \BBA {} Liu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Quality detection and grading of peach fruit based on
+  image processing method and neural networks in agricultural industry}
+  {Quality detection and grading of peach fruit based on image processing
+  method and neural networks in agricultural industry}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Plant Science}{15}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.3389/fpls.2024.1415095} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mandigma%
+, Reyes%
+\BCBL {}\ \BBA {} Tecson%
+}{%
+Mandigma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+mamaril2021eggplantcomics}
+\APACinsertmetastar {%
+mamaril2021eggplantcomics}%
+\begin{APACrefauthors}%
+Mandigma, M\BPBI G\BPBI R.%
+, Reyes, A\BPBI V.%
+\BCBL {}\ \BBA {} Tecson, J\BPBI V\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2021}.
+\newblock
+\APACrefbtitle {{Pinakbet Adventures ni Pina}: Komik Serye tungkol sa mga
+  sumusunod na Philippine National Standards (PNS)} {{Pinakbet Adventures ni
+  Pina}: Komik serye tungkol sa mga sumusunod na philippine national standards
+  (pns)}\ (M\BPBI G\BPBI R.~Mandigma, \BED{}).
+\newblock
+\APACaddressPublisher{Diliman, Quezon City}{{Bureau of Agriculture and
+  Fisheries Standards (BAFS)}}.
+\newblock
+\begin{APACrefURL} \url{bafs.da.gov.ph} \end{APACrefURL}
+\newblock
+\APACrefnote{ISBN 978-621-455-226-9 (PDF)}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McHugh%
+}{%
+McHugh%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+mchugh2012interrater}
+\APACinsertmetastar {%
+mchugh2012interrater}%
+\begin{APACrefauthors}%
+McHugh, M\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Interrater reliability: the kappa statistic} {Interrater
+  reliability: the kappa statistic}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biochemia medica}{22}{3}{276--282}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mputu%
+, Abdel-Mawgood%
+, Shimada%
+\BCBL {}\ \BBA {} Sayed%
+}{%
+Mputu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Mputu2024}
+\APACinsertmetastar {%
+Mputu2024}%
+\begin{APACrefauthors}%
+Mputu, H\BPBI S.%
+, Abdel-Mawgood, A.%
+, Shimada, A.%
+\BCBL {}\ \BBA {} Sayed, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tomato Quality Classification Based on Transfer Learning
+  Feature Extraction and Machine Learning Algorithm Classifiers} {Tomato
+  quality classification based on transfer learning feature extraction and
+  machine learning algorithm classifiers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{12}{}{8283-8295}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3352745} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Narendra%
+\ \BBA {} Pinto%
+}{%
+Narendra%
+\ \BBA {} Pinto%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Narendra2021}
+\APACinsertmetastar {%
+Narendra2021}%
+\begin{APACrefauthors}%
+Narendra, V\BPBI G.%
+\BCBT {}\ \BBA {} Pinto, A\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Defects Detection in Fruits and Vegetables Using Image
+  Processing and Soft Computing Techniques} {Defects detection in fruits and
+  vegetables using image processing and soft computing techniques}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Intelligent Systems and Computing} {Advances
+  in intelligent systems and computing}\ (\BVOL\ 1275, \BPG~325-337).
+\newblock
+\APACaddressPublisher{}{Springer Science and Business Media Deutschland GmbH}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-981-15-8603-3_29} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ojala%
+, Pietikainen%
+\BCBL {}\ \BBA {} Maenpaa%
+}{%
+Ojala%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+ojala2002multiresolution}
+\APACinsertmetastar {%
+ojala2002multiresolution}%
+\begin{APACrefauthors}%
+Ojala, T.%
+, Pietikainen, M.%
+\BCBL {}\ \BBA {} Maenpaa, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multiresolution gray-scale and rotation invariant
+  texture classification with local binary patterns} {Multiresolution
+  gray-scale and rotation invariant texture classification with local binary
+  patterns}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on pattern analysis and machine
+  intelligence}{24}{7}{971--987}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Philippine Statistics Authority}%
+}{%
+{Philippine Statistics Authority}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+psa2025eggplant}
+\APACinsertmetastar {%
+psa2025eggplant}%
+\begin{APACrefauthors}%
+{Philippine Statistics Authority}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Philippines Production: Value: Crops: Eggplant}}
+  {{Philippines Production: Value: Crops: Eggplant}}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL}
+  [{2025-10-29}]\url{https://www.ceicdata.com/en/philippines/production-value-agriculture-current-price/production-value-crops-eggplant}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{As reported by CEIC}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{PNS}%
+}{%
+{PNS}%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+BAFS2019PhilGAP}
+\APACinsertmetastar {%
+BAFS2019PhilGAP}%
+\begin{APACrefauthors}%
+{PNS}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {{Philippine National Standard on Good Agricultural Practices
+  (PNS-GAP): "Gabay para sa ligtas na pagkain"}} {{Philippine National Standard
+  on Good Agricultural Practices (PNS-GAP): "Gabay para sa ligtas na
+  pagkain"}}\ [Comic Booklet].
+\newblock
+\APACaddressPublisher{Diliman, Quezon City, Philippines}{}.
+\newblock
+\APACrefnote{Story by Mandigma, M. G. R., and Tecson, J. V. D. R.; Arts and
+  Graphics by Reyes, A. V.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Szeliski%
+}{%
+Szeliski%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+szeliski2022computer}
+\APACinsertmetastar {%
+szeliski2022computer}%
+\begin{APACrefauthors}%
+Szeliski, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2022}.
+\newblock
+\APACrefbtitle {Computer vision: algorithms and applications} {Computer vision:
+  algorithms and applications}.
+\newblock
+\APACaddressPublisher{}{Springer Nature}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{USDA}%
+}{%
+{USDA}%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+USDA2013EggplantStandards}
+\APACinsertmetastar {%
+USDA2013EggplantStandards}%
+\begin{APACrefauthors}%
+{USDA}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {{United States Standards for Grades of Eggplant, $\S51.2190$ to
+  $\S51.2207$}} {{United States Standards for Grades of Eggplant, $\S51.2190$
+  to $\S51.2207$}}\ (\PrintOrdinal{Effective February 4, 2013}\ \BEd)\ [Federal
+  Standard].
+\newblock
+\APACaddressPublisher{Washington, D.C.}{}.
+\newblock
+\APACrefnote{Supersedes third issue effective October 29, 1953.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Zhu%
+, Wei%
+\BCBL {}\ \BBA {} Yu%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Wang2024}
+\APACinsertmetastar {%
+Wang2024}%
+\begin{APACrefauthors}%
+Wang, W.%
+, Zhu, A.%
+, Wei, H.%
+\BCBL {}\ \BBA {} Yu, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{1}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A novel method for vegetable and fruit classification
+  based on using diffusion maps and machine learning} {A novel method for
+  vegetable and fruit classification based on using diffusion maps and machine
+  learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Research in Food Science}{8}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.crfs.2024.100737} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J.~Xu%
+, Lu%
+\BCBL {}\ \BBA {} Deng%
+}{%
+J.~Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+xu2024design}
+\APACinsertmetastar {%
+xu2024design}%
+\begin{APACrefauthors}%
+Xu, J.%
+, Lu, Y.%
+\BCBL {}\ \BBA {} Deng, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {DESIGN, PROTOTYPING, AND EVALUATION OF A NEW MACHINE
+  VISION-BASED AUTOMATED SWEETPOTATO GRADING AND SORTING SYSTEM} {Design,
+  prototyping, and evaluation of a new machine vision-based automated
+  sweetpotato grading and sorting system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the ASABE}{67}{}{1369-1380}.
+\newblock
+\begin{APACrefDOI} \doi{10.13031/ja.16051} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.~Xu%
+, Zhang%
+, Zhan%
+, Ge%
+\BCBL {}\ \BBA {} Yang%
+}{%
+M.~Xu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+xu2025research}
+\APACinsertmetastar {%
+xu2025research}%
+\begin{APACrefauthors}%
+Xu, M.%
+, Zhang, X.%
+, Zhan, C\BPBI J.%
+, Ge, J\BPBI Y.%
+\BCBL {}\ \BBA {} Yang, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Research on citrus grading system based on machine
+  vision} {Research on citrus grading system based on machine vision}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Systems Science and Control Engineering}{13}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/21642583.2025.2460443} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+K.~Zhang%
+\ \protect \BOthers {.}}{%
+K.~Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+zhang2022advancements}
+\APACinsertmetastar {%
+zhang2022advancements}%
+\begin{APACrefauthors}%
+Zhang, K.%
+, Shi, Y.%
+, Karnouskos, S.%
+, Sauter, T.%
+, Fang, H.%
+\BCBL {}\ \BBA {} Colombo, A\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Advancements in industrial cyber-physical systems: An
+  overview and perspectives} {Advancements in industrial cyber-physical
+  systems: An overview and perspectives}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Industrial
+  Informatics}{19}{1}{716--729}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Zhang%
+, Lu%
+\BCBL {}\ \BBA {} Lu%
+}{%
+Z.~Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+zhang2021development}
+\APACinsertmetastar {%
+zhang2021development}%
+\begin{APACrefauthors}%
+Zhang, Z.%
+, Lu, Y.%
+\BCBL {}\ \BBA {} Lu, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Development and evaluation of an apple infield grading
+  and sorting system} {Development and evaluation of an apple infield grading
+  and sorting system}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Postharvest Biology and Technology}{180}{}{111588}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
