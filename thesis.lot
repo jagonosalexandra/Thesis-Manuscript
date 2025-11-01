@@ -2,8 +2,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces A sample long table.}}{10}{table.3.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Sample Data Table}}{13}{table.caption.7}%
+\contentsline {table}{\numberline {1}{\ignorespaces Hardware Requirements}}{13}{table.3.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Hardware Cost}}{17}{table.3.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces A sample long table.}}{18}{table.3.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Sample Data Table}}{21}{table.caption.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
