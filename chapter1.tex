@@ -1,59 +1,94 @@
 \chapter{INTRODUCTION}
-
 {\baselineskip=2\baselineskip
+This chapter presents an overview of the study, outlining its conceptual foundation and research direction. Section 1.1 presents the background of the study, which discusses the growing use of automation, computer vision, and machine learning in postharvest quality assessment. Section 1.2 identifies the statement of the problem, highlighting the challenges in automating the grading and sorting of eggplants. Section 1.3 states the objectives of the study, focusing on the design and development of an automated eggplant grading and sorting system. Section 1.4 discusses the significance of the study, emphasizing its benefits to farmers, traders, consumers, and future researchers. Section 1.5 defines the scope and limitations that set the boundaries of the study’s application and performance. Lastly, Section 1.6 provides the definition of key terms to ensure clarity and understanding of important concepts used throughout the research.
+
 \section{Background of the Study}
-Eggplant (\textit{Solanum melongena} L.) has been cultivated for centuries and is now a staple in cuisines worldwide. Also known as aubergine, brinjal, or \textit{talong} in the Philippines, eggplant holds a prominent position in the vegetable sector, with global production of approximately 60.8 million metric tons from an area of over 1.9 million hectares \citep{FAOSTAT_EggplantProduction}. In April to June of 2023, the Philippines produced 102.98 thousand metric tons of eggplant \citep{PSA_Eggplant_2023}, making it one of the most important and widely grown vegetable crops in the country.
+In recent years, the agricultural sector has increasingly turned to automation and artificial intelligence to enhance postharvest operations. Within this technological shift, machine learning (ML) has become pivotal for automating the quality grading and sorting of produce \citep{bansal2023computer}. This technology facilitates non-destructive inspection by analyzing key visual characteristics (such as color, size, shape, and surface defects) that were traditionally assessed through manual, labor-intensive methods \citep{khan2024intelligent}. By integrating ML with mechatronic systems, automated graders have been developed that perform real-time classification and physical sorting, significantly boosting efficiency and accuracy for a variety of crops, including apples, citrus, and mangoes \citep{xu2024design,bu2025grading,lee2023multi,zhang2021development}.
 
-But before being sold, eggplant is manually categorized by visual inspection to determine their quality \citep{sun2025novel}. This includes assessing the fruit's diameter, length, volume, curvature, color homogeneity, calyx area (the green, leaf-like “cap” at the fruit's stem end), calyx color, and surface defects \citep{lyu2025agronomic,lalam2025automatic}. Sorting only takes a few hours for small-scale farmers, but it can take a little longer and more workers on large plantations, since the quantity of harvested eggplants is directly proportional to labor and time needed \citep{Khan2025UsingCV}.
+Despite these advancements, a significant research gap remains for elongated and irregularly shaped produce like eggplants, as existing systems have primarily been optimized for spherical or root-type crops. For instance, studies on sweet potatoes and mandarins achieved high accuracy but relied on the produce shapes reliant on uniform rotation \citep{xu2024design,bu2025grading}. Similarly, multi-camera setups for apples often struggle to achieve full-surface visibility on non-spherical items \citep{lee2023multi,zhang2021development}.  While deep learning has been successfully applied to classify diseases in eggplants \citep{haque2022deepnetwork,kursun2025conference}
 
-Because most people just use their eyes to judge the quality of eggplant, there is a significant rate of inaccuracy in addition to the time-consuming and expensive nature of manual eggplant sorting \citep{Waghmare2025Comprehensive}.  As a result, a number of cutting-edge technologies were combined to increase classification accuracy and decrease inefficiencies, particularly deep learning and computer vision.  For instance, the study of
+Addressing this technological gap is critical given the economic and agricultural importance of eggplant. A global crop with centuries of cultivation, eggplant (\textit{Solanum melongena}), also known as aubergine or brinjal, is a major vegetable crop. Global production reaches approximately 60.8 million metric tons, cultivated on over 1.9 million hectares \citep{fao2025eggplant}. Its significance is particularly pronounced in countries like the Philippines, where it is locally known as “\textit{talong}” and where the production value alone amounted to ₱1.027 billion in December 2024 \citep{psa2025eggplant}.
 
+The unique morphology of eggplant poses distinct challenges for automated grading. Its elongated, curved, and irregular shape complicates the capture of a complete surface image, unlike spherical fruits that can be easily rotated. Consequently, specialized multi-angle imaging is necessary to consistently capture defects along the entire stem-end, body, and tip-end. Additionally, the vegetable’s dark purple skin can obscure blemishes, and its susceptibility to specific defects like calyx browning requires highly sensitive computer vision algorithms for accurate quality assessment.
+
+This study will look into developing an integrated computer vision and deep learning system for the real-time grading and sorting of eggplants while considering the plant’s unique morphology. The core innovation is a dedicated imaging station; when an eggplant passes over this station, two synchronized cameras mounted above and below the glass simultaneously capture its top and bottom surfaces. This design eliminates the need for complex mechanical flipping \citep{awasthi2021development} and overcomes the challenges of timing and inconsistent rotation posed by the vegetable’s variable size and curvature. Successful validation will demonstrate a scalable system capable of reducing postharvest losses, lowering labor costs, and ensuring consistent quality standards for this high-value crop. By providing a model for grading non-spherical produce, this study will hopefully contribute to broader adoption of precision agriculture in farming. A machine learning model will then process these captured images to perform quality grading, which subsequently actuates a mechatronic sorter (eggplants will be sorted first into binary classification of “Healthy” and “Defect” or “Unhealthy”. Afterwards, “Healthy” class will be sorted further into three subclasses: “Extra Class”, “Class I”, and “Class II,” which follows the local criteria provided by the Philippine National Standards (PNS) and Bureau of Agricultural and Fisheries Product Standards (BAFPS) (PNS/BAFPS 52:2007), that is based on visual quality, size, and defect tolerances \citep{mamaril2021eggplantcomics}.
 
 %-----------------------------------------------------------------------------------------------
 
 %-----------------------------------------------------------------------------------------------------------------------------------
 \section{Statement of the Problem}
 
-This study seeks to investigate some properties of decomposable hyper KS-semigroups in the context of strong, weak, quasi- and bi-hyper KS-ideals.
+The adoption of automated grading systems using ML has significantly improved postharvest efficiency for many agricultural crops. However, a critical technological gap exists for elongated and irregularly shaped produce, specifically eggplants. Existing automated systems are predominantly designed and optimized for spherical (e.g., citrus fruits, tomatoes) or root-type crops (e.g., sweet potatoes, potatoes), which allow for uniform rotation and straightforward imaging to achieve full-surface visibility.
+
+This gap poses two main challenges – unique morphological features and automation of sorting systems for postharvest quality grading. The produce unique morphology (elongated, curved shape, dark skin) presents distinct challenges (such as darkening of skin leading to obscure defects, and susceptibility to specific blemishes like calyx browning) that current system designs cannot adequately address. These challenges include the inability to capture a complete surface image without complex handling and the need for specialized algorithms to accurately identify defects on a non-uniform, dark surface. While some research has applied deep learning to eggplant disease detection, these studies have not progressed to the development of integrated, real-time mechanical sorting systems for postharvest quality grading. This lack of a tailored automated solution is a significant limitation, given the substantial economic and agricultural importance of eggplant as a widely cultivated crop.
+
+A primary technical obstacle is the lack of an effective imaging mechanism capable of capturing the eggplant's entire surface area in a single, synchronized pass. Conventional conveyor-based systems used for round produce are insufficient because they cannot enable a complete full surface inspection of a curved, elongated vegetable to a camera. Proposed solutions like mechanical flippers or complex multi-roller systems introduce significant drawbacks, including increased cost, mechanical complexity, and high risk of bruising or damaging the delicate skin of the produce, which defeats the purpose of non-destructive inspection.
+
+Consequently, the absence of a suitable automated system for eggplants perpetuates a reliance on manual labor for sorting, which is inherently slow, inconsistent, and economically unsustainable. This reliance leads to significant postharvest losses due to inconsistent grading standards and the slow pace of human inspection, which can bottleneck the entire supply chain. Without a technological solution designed for its specific form, the eggplant industry cannot fully access the benefits of automation, such as enhanced throughput, objective quality control, and improved profitability for farmers. Therefore, the problem necessitates the development of a novel, integrated system that solves the fundamental challenges of imaging and handling eggplants to enable accurate, real-time, and non-destructive automated grading.
+
 
 \section{Objectives of the Study}
 
-In view of the above stated problem, we have the following objectives:
+This study aims to develop an automated eggplant sorting and grading system using ML to classify eggplants as healthy or defective, and categorize healthy ones into three quality grades (“Extra Class”, “Class I”, “Class II”), reducing manual labor in the sorting process.
+
+Specifically, this study aims:
 \begin{enumerate}
-	\item To introduce the concept of strong, weak, quasi- and bi-hyper KS-ideals;
-	\item To provide characterizations of strong, weak, quasi- and bi-hyper KS-ideals and investigate their relationships;
-	\item To introduce the idea of decomposable hyper KS-semigroups and give some characterizations.
+	\item To design and develop a mechatronic sorting mechanism that integrates with a conveyor system to automate the physical separation of eggplants based on quality grade;
+	\item To develop and train a machine learning model for automatic quality grading by extracting visual features (such as color, shape, and surface defects) from images captured by the dual-camera imaging station; and
+	\item To evaluate the performance evaluation of the integrated system, measuring its grading accuracy, mechanical reliability, and usability for postharvest operations.
 \end{enumerate}
 
 \section{Significance of the Study}
 
-The concept of hyperstructures is itself, a powerful mathematical tool since algebraic hyperstructures seem to occur very naturally in many areas of mathematics and even in other disciplines. 
+This study enhances the post-harvest process of eggplant production through automated sorting and grading using image processing and machine learning. It addresses the inefficiencies of manual sorting by ensuring accurate and consistent quality classification. The research contributes to agricultural advancement and supports SDG 2 (Zero Hunger), SDG 8 (Decent Work and Economic Growth), and SDG 12 (Responsible Consumption and Production) by promoting productivity, fair trade, and reduced post-harvest waste. Benefiting from the study are the following sectors:
+
+\textit{Farmers}. Benefit through reduced manual labor and human error in sorting and grading. The system helps them achieve consistent classification results, allowing for fairer pricing. Faster and more accurate sorting increases productivity and reduces post-harvest losses. Farmers also gain stronger market confidence by consistently meeting quality standards required by buyers and distributors.
+
+\textit{Middlemen and Traders}. Benefit from standardized grading that ensures uniform quality across distributed eggplants. Providing standardized classifications helps minimize rejection from buyers and reduces unnecessary handling and waste. This also promotes efficiency in the post-harvest process by shortening the time between sorting and distribution, ensuring that only high-quality and market-ready produce is delivered. Through improved consistency, traders can build stronger partnerships with retailers and improve the credibility of their supply chain operations.
+
+\textit{Consumers}. Receive eggplants that are clean, fresh, and free from visible defects or diseases. Consistent grading ensures that only safe and high-quality produce reaches the market, promoting good health and consumer satisfaction. The system also supports fair pricing in markets by clearly distinguishing product grades according to quality.
+
+\textit{Future Researchers}. Gain a useful reference for developing or enhancing automated grading systems in agriculture. The study offers insights into applying image processing and machine learning for post-harvest classification and quality control. It also serves as a foundation for future improvements, including system adaptation for other crops and refinement of algorithm accuracy and efficiency.
+
 
 \section{Scope and Limitations}
 
-The primary motivation of this study lies within the structural properties of hyper 
+The scope of this study focuses on the quality grading of eggplants using machine learning integrated with a mechatronic sorting system. The system is designed to first classify eggplants as either healthy or defective, and then to further classify the healthy eggplants into the quality grades of Extra Class, Class I, and Class II based on color homogeneity and shape. The system is designed to process individual eggplants as they are transported on a conveyor belt, passing through an imaging platform that enables a full surface inspection.
+
+The focus will be on sorting long, elongated, purple eggplants only, as these are the most common type of eggplants available in Cagayan de Oro City. Uncleaned  eggplants or those with significant visible foreign matter–such as thick mud–that may occlude the surface and interfere with the system’s classification algorithms are excluded from the study’s scope. 
+
+In this study,  the conveyor belt will have a width of 400 mm, allowing for the efficient transport of individual eggplants during the sorting process. The system will be designed to handle a maximum weight capacity of 7 kg, ensuring that it can process a sufficient number of eggplants at a time without overloading the mechanism. This weight capacity ensures that the system is capable of handling typical batches of eggplants during postharvest operations, while maintaining smooth and efficient performance.
+
+The system is restricted to detecting only external visible defects for the initial healthy/defective classification; it will not identify the specific type of disease present on defective eggplants. Furthermore, the system is fundamentally limited to detecting only external visible defects and cannot detect diseases or quality issues caused by internal fruit infestation, as these are not visible to the camera. Additionally, since the system is designed for long, elongated types of eggplants, it may struggle with or require recalibration for significantly different varieties or shapes.
+
 
 \section{Definition of Terms}
 
 \begin{description}
 
-	\item[Data Logger] 
-	An electronic device that records data over time or in relation to location either with a built-in instrument or sensor or via external instruments and sensors.
+	\item[Color Homogeneity] 
+	The degree of uniformity in color across an object’s surface.
 	
-	\item[GPS Tracking] 
-	Using the Global Positioning System to determine and track the precise location of a person, vehicle, or other asset.
+	\item[Feature Extraction] 
+	The process of identifying and quantifying important characteristics such as color, shape, and texture from images
 	
-	\item[Real-time Monitoring] 
-	The process of continuously observing a system or process and immediately reporting any changes or anomalies.
+	\item[Hyperparameter Tuning] 
+	Adjusting model settings to improve its accuracy and performance.
 	
-	\item[Sensor] 
-	A device that detects or measures a physical property and records, indicates, or otherwise responds to it.
+	\item[Image Preprocessing] 
+	Enhancement of raw images to reduce noise and improve analysis quality.
+		
+	\item[Image Segmentation] 
+	The division of an image into regions to isolate specific objects or areas.
 	
-	\item[Telemetry] 
-	The process of recording and transmitting the readings of an instrument.
+	\item[ImageNet] 
+	A large visual dataset used for pretraining deep learning models in transfer learning applications, advancing deep learning and computer vision through massive, well-labeled datasets that enable highly accurate model training.
 	
-	\item[Wireless Communication] 
-	The transfer of information between two or more points that are not connected by an electrical conductor.
+	\item[Quality Grading] 
+	The process of evaluating and categorizing items based on visual attributes such as shape, color, and surface condition to determine the overall quality level. 
+	
+	\item[Mechatronics] 
+	Refers to a field of engineering that integrates mechanical, electrical, computer, and control engineering to create smarter and more efficient systems.
 
 \end{description}
 
