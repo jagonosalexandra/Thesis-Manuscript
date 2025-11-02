@@ -16,14 +16,17 @@
 \usepackage[titles]{tocloft}
 \usepackage{xcolor,xpatch}
 \usepackage[hidelinks]{hyperref}
-\usepackage{newtxmath, newtxtext}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext, newtxmath}
 \usepackage{datetime}
 \usepackage{amsfonts}
 %Shortcut Environments
 \usepackage{tocloft}
 \usepackage{booktabs} % for better looking tables
 \usepackage{longtable}
-\usepackage{vcell}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{float}
 %\renewcommand*\sectionmark[1]{\markboth{#1}{}}
 %\renewcommand*\subsectionmark[1]{\markright{#1}{}}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -100,7 +103,7 @@
 \newcommand{\listequationsname}{List of Equations}
 \newlistof{myequations}{exp}{\listequationsname}
 \newcommand{\myequation}[1]{%
-	\addcontentsline{exp}{myequations}{\protect\numberline{\theequation}#1}\par}
+	\addcontentsline{exp}{myequations}{\protect\numberline{\theequation}#1}}
 \setlength{\cftmyequationsnumwidth}{4.2em} % Adjust the width of the number column
 \setlength{\cftmyequationsindent}{3.2em} % Adjust the indentation of the entries
 
@@ -127,3 +130,5 @@
 \captionsetup[table]{position=above, justification=raggedright, singlelinecheck=false, labelformat=simple, labelsep=colon}
 
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+\newcommand{\sectionsubsub}[1]{\noindent\textit{\textbf{#1}}\par}

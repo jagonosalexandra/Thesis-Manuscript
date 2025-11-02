@@ -13,6 +13,23 @@ The development of an automated eggplant grading system is fundamentally grounde
 	\label{fig:theoreticalframework}
 \end{figure}
 
+\subsection{Machine Learning}
+Machine learning provides the theoretical foundation for automated pattern recognition and decision-making in the grading system. The core principle involves learning a mapping function f from input features x to output labels y based on the training dataset  \begin{equation}
+	\label{eq:datasetdefinition}
+	\mathcal{D} = \left[ \left( x_i123456, y_i \right) \right]_{t=1}^{N}
+	\myequation{Dataset Definition}
+\end{equation}
+where the goal is to minimize the expected risk as formalized in Eq. (\ref{eq:datasetdefinition}) \citep{bishop2006pattern}
+\begin{equation}
+	\label{eq:expected_risk}
+	R(f) = E_{(x,y)~P_{data}} \left[ \mathcal{L}(f(x),y) \right]
+\end{equation} 
+\begin{equation}
+	\label{eq:parameter_update}
+	\theta^{(t+1)} = \theta^{(t)} - \eta \nabla_{\theta} J(\theta^{(t)})
+\end{equation}
+
+
 The development of an automated eggplant grading system is fundamentally grounded in the integrated theoretical paradigms of computer vision, deep learning, and mechatronics. The entire process can be conceptualized through a sequential computer vision pipeline, which moves from image acquisition to physical actuation \citep{szeliski2022computer}. This pipeline begins with the digital image formation theory, where a camera sensor captures light reflectance from objects on a conveyor belt, a common setup in food process engineering \citep{dougherty2020digital}. The stability and quality of this initial stage are paramount, as controlled, diffuse illumination is critical to minimize specular reflections and shadows that can obscure critical features like color and surface defects, thereby ensuring consistent input for subsequent algorithmic processing.
 
 Following acquisition, image pre-processing theories are applied to enhance data quality and standardize inputs. This involves digital signal processing techniques such as noise reduction using Gaussian or median filters \citep{kumar2020comparative} and, crucially, color space transformation. Converting images from the default Red-Green-Blue (RGB) space to Hue-Saturation-Value (HSV) or \textit{CIEL*a*b*} is a well-established step in agricultural product inspection \citep{khan2024intelligent}. The theoretical underpinning for this conversion lies in the decoupling of color information (chrominance) from intensity (luminance) in these spaces, making the extracted color features more robust to minor variations in lighting conditions, which is essential for accurate color-based grading.
@@ -24,3 +41,410 @@ For the classification task itself, the theoretical models diverge. Machine lear
 The integrity of any supervised learning system is dependent upon the quality of its labeled dataset. The establishment of a reliable ground truth is a theoretical problem rooted in psychometrics and expert systems. The grading labels for the eggplant images must be derived from standardized agricultural protocols, such as those provided by the United States Department of Agriculture (USDA) or equivalent bodies, which define quality classes based on size, color uniformity, and defect tolerances \citep{USDA2013EggplantStandards}. Locally, the project will utilize the criteria defined by the Philippine National Standard (PNS), and Bureau of Agricultural and Fisheries Product Standards (BAFPS) (specifically the PNS/BAFPS 52:2007), which classifies eggplants into Extra Class, Class I, and Class II based on visual quality, size, and defect tolerances \citep{PNSBAFPS522007_Eggplant,BAFS2019PhilGAP}. To ensure scientific rigor, the concept of inter-rater reliability, often measured by Cohen’s Kappa statistic ($\kappa$), must be applied to quantify the agreement between human experts who label the dataset, thereby validating the consistency of the training labels \citep{mchugh2012interrater,he2022cohens}.
 
 The closed-loop system theory integrates the digital classification with physical actuation. The decision output from the classification model (e.g., a specific grade) is transmitted via a software-to-hardware interface to a Programmable Logic Controller (PLC) or microcontroller \citep{bolton2015programmable}. This triggers a mechatronic actuator, such as a pneumatic pusher or a servo-controlled diverter, which physically sorts the eggplant into its designated bin on the conveyor line. This final stage embodies the principle of cyber-physical systems, where computational intelligence directly controls a physical process to achieve full automation, replicating and potentially surpassing human grading efficiency \citep{lee2008cyber,zhang2022advancements}.
+
+\section{Related Studies}
+This section explores existing research and advancements in key areas relevant to the development of the eggplant quality classification and sorting systems. It covers topics such as automated quality grading and sorting systems, image processing techniques, feature extraction, and classification techniques, highlighting their applications and contributions to efficient data processing and real-time quality classification.
+
+\subsection{Automated Quality Grading and Sorting Systems}
+
+The automation of quality grading and sorting represents a critical advancement in postharvest technology, addressing labor shortages, improving consistency, and enhancing operational efficiency. The field has seen significant progress through the development of various machine vision-based systems for a wide range of fruits. These systems typically integrate specialized hardware for fruit handling and imaging with sophisticated software algorithms for quality assessment. The following reviews demonstrate a spectrum of technological approaches, from traditional image processing techniques to advanced deep learning models like CNNs, YOLOv8, and ShuffleNet v2. A common focus is the evaluation of key quality attributes such as surface defects, color, size, mass, and shape, enabling high-speed, automated sorting into commercial grades. 
+
+\sectionsubsub{Design and Experimentation of a Machine Vision-Based Cucumber Quality Grader}
+
+The study designed a novel height difference-free grading mechanism—the fixed tray type—to protect the vulnerable, dense-spined North China type cucumber from damage during automated sorting. The study also introduced a new convolutional neural network architecture named MassNet, which can predict the mass of a cucumber with high accuracy using only a single RGB top-view image, eliminating the need for complex feature extraction. In the mechatronic system, cucumbers were transported on custom-designed trays along a conveyor, with a vision system inside a detection box capturing images triggered by a photoelectric sensor. An electrical control strategy using a PLC ensured real-time synchronization between the predicted grade information and the tray’s position, activating electromagnet-controlled turnouts to direct trays to one of three grading chutes based on mass. For the algorithm, MassNet was developed, incorporating Cross-Stage Partial Connections (CSPC) to enhance feature learning. It was trained on a dataset of 409 cucumber images using the Adam optimizer and MSE loss. The key findings showed that the grader achieved a maximum capacity of 2.3 tonnes per hour. In comparative experiments, MassNet significantly outperformed established models like AlexNet, MobileNet, and ResNet in mass prediction, achieving a MAPE of 3.9\% and a RMSE of 6.7g. In the online grading experiment with 100 cucumbers, the system achieved a high grading efficiency of 93\% at a speed of 60 pieces per minute, with no damage incurred on the cucumbers \citep{liu2024design}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/Liu2024}
+	\caption{Structure and grading schematic of the cucumber grading machine \citep{liu2024design}}
+	\label{fig:liu2024}
+\end{figure}
+
+\sectionsubsub{Design, Prototyping, and Evaluation of a Machine Vision-based Automated Sweetpotato Grading and Sorting System}
+
+The study developed a novel integrated YOLOv8 machine vision-based system for online automated grading and sorting of sweet potatoes. The developed system consisted of two major units: a roller conveyor-based machine vision unit and sorting mechanisms configured on a belt conveyor. The 490$\times$230 mm roller conveyor utilized a chain-rack-gear mechanism to simultaneously transport and rotate sweetpotatoes, and was powered by a parallel shaft gear motor with a speed controller. An enclosed image chamber was assembled on top of the conveyor, housing a downward-facing RGB-D camera and LED lighting to capture multiple views of the rotating samples. A key innovation was the development of a computer algorithm pipeline using YOLOv8 combined with BoT-SORT for real-time instance segmentation and tracking of individual sweetpotatoes, enabling full-surface inspection. This pipeline performed quality grading by estimating size (length and width via ellipse-fitting) and classifying surface defects, then integrating this multi-view data to assign a final grade (Premium, Good, or Fair) based on USDA standards. The sorting mechanism employed two pneumatically-activated linear air cylinders, timed by an IR sensor, to push graded sweetpotatoes into respective bins. The study experimented on 267 sweet potato storage roots of two varieties, Bayou Belle and Orleans. Results demonstrated that system performance was evaluated at three conveyor speeds (4, 8, and 12 cm/s), with a clear trend of decreasing accuracy as speed increased. The sorting mechanisms alone achieved accuracies of 98.9\%, 98.3\%, and 96.9\% at the respective speeds. Correspondingly, the machine vision unit achieved overall grading accuracies of 97.9\%, 95.8\%, and 93.8\% when considering both size and surface defects. The fully integrated system successfully merged these components, achieving overall online sorting accuracies of 97.9\%, 94.8\%, and 92.7\% at the low, medium, and high speeds, thereby validating the prototype’s efficacy for automated sweetpotato grading and sorting \citep{xu2024design}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/Xu2024}
+	\caption{Scheme of the main hardware elements of the integrated sweetpotato grading and sorting system \citep{xu2024design}}
+	\label{fig:Xu2024}
+\end{figure}
+
+\sectionsubsub{Research on Citrus Grading System Based on Machine Vision}
+
+The study implemented a citrus grading system based on machine vision, strictly adhering to the Chinese national standard GB/T 12947-2008. The system classified citrus into four grades (Superior, First-class, Second-class, and Other) based on three criteria: transverse diameter (size), colouring rate (proportion of orange-red area), and circularity (shape). The hardware platform utilized a CCD industrial camera, LED lights, and a conveyor belt. For software, images were preprocessed using bilateral filtering and grayscale transformation. The Canny edge detection algorithm was then applied to extract fruit contours. The minimum circumcircle method was used to calculate the diameter (with a conversion ratio of 0.588 mm/pixel) and circularity, while the H component in the HSV colour model and a flood-fill algorithm were used to determine the colouring rate. The key findings from testing five citrus samples showed that the system's diameter measurement had a maximum error of 1.000 mm, a minimum error of 0.006 mm, and all absolute errors were within $\pm$1.5 mm. The system’s grading results for all five samples were 100\% consistent with manual grading based on the national standard. Furthermore, the system demonstrated high computational efficiency, with an average startup time of 0.0798 seconds and stable memory usage averaging 11.203 MB. The study concluded that the system provides an accurate, efficient, and standardized solution for automated citrus grading \citep{xu2025research}.
+
+\sectionsubsub{Development and Evaluation of an Apple Infield Grading and Sorting System}
+
+The study developed and evaluated a compact, high-throughput apple infield grading and sorting system to enable cost-saving pre-sorting of harvested fruit directly in the orchard. The system integrated three key components – pitch-variable screw conveyors that simultaneously singulated, rotated, and transported apples, a machine vision unit that used a single CCD camera to grade apples based on size and color into fresh or processing categories, and a novel paddle sorter activated by a rotary solenoid to divert fruit into the appropriate bins. The vision system involved segmenting the fruit from the background using a two-class linear-discriminant classifier trained on RGB pixel intensities. For size estimation, the system determined the stem-calyx orientation and calculated the maximum equatorial diameter, achieving an error within ±1.8 mm. For color grading, the RGB images were converted to the HSV color space, and the hue channel was analyzed using predefined thresholds to classify each pixel as red, stripe, or green; the final color grade was then determined by the area percentages of these colors, with specific criteria set for different apple varieties. Laboratory testing with Red Delicious and Golden Delicious apples at three system throughputs (7.5, 9.0, and 10.5 apples per second) was conducted. The results demonstrated that the system achieved high intra-lane grading repeatability (above 90\%) and robust inter-lane repeatability (above 81\%). Critically, it caused 45\% bruising damage during the grading and sorting process, with 100\% of tested apples meeting the “Extra Fancy” grade requirement. Furthermore, the system achieved a remarkably high sorting accuracy of over 99\% across all tested throughputs and fruit varieties, demonstrating its robustness and potential for commercial infield application \citep{zhang2021development}.
+
+\sectionsubsub{Multi-Camera-Based Sorting System for Surface Defects of Apples}
+
+The study developed a multi-camera apple sorting system with a rotational mechanism designed to overcome the limitations of single-camera setups by ensuring uniform and accurate imaging of the entire apple surface through a dedicated 180-degree rotation mechanism and three synchronized industrial cameras. The image processing pipeline began with a custom segmentation algorithm that employed pyramid-based downsampling for efficient apple position estimation, followed by a histogram-based analysis in the RGB color space to isolate the fruit from the background using the criteria that red pixel intensity was significantly higher than green and blue, and concluded with cropping to create standardized, background-free input images. To enable real-time processing on embedded hardware (NVIDIA Jetson Nano), the authors utilized a Knowledge Distillation framework, transferring knowledge from a high-performance teacher model (RegNetY-8.0GF) to a compact student model (a lightweight ResNet18), which served as the final CNN classifier. The key findings demonstrated that this approach yielded a highly efficient system, with the distilled student model achieving an inference speed of 0.069 seconds per image and a final sorting accuracy of 93.83\% across 300 apple samples, successfully processing one apple every 2.84 seconds while comprehensively scanning its entire surface \citep{lee2023multi}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.45\linewidth]{figures/Lee2023_1} 
+	\includegraphics[width=0.3\linewidth]{figures/Lee2023_2}
+	\caption{Camera structure and rotation mechanism \citep{lee2023multi}}
+	\label{fig:Lee2023}
+\end{figure}
+
+\sectionsubsub{Infield Apple Detection and Grading Based on Multi-Feature Fusion}
+
+The study developed a field-based apple detection and grading system designed to operate in orchard conditions, utilizing a multi-feature fusion approach to classify apples into three grades (first, second, and other) based on size, color, shape, and surface defects. The system consisted of a conveying mechanism with four parallel conveyor belts, a detection unit housed in a closed cuboid box, and an actuating mechanism for sorting apples into different collection channels. Image acquisition was performed using three industrial cameras to capture the top and side views of each apple. For feature extraction, the apple size was determined using the minimum circumscribed circle method from the top-view image, shape was evaluated via roundness and shape index, color was assessed in HSV space using the ratio of red-area pixels, and surface defects were detected using a Single-Shot Multibox Detector (SSD) deep learning model trained with transfer learning. These features were then fused and classified using a multi-class SVM with a radial basis function kernel. The results showed detection accuracies of 99.04\% for size, 97.71\% for shape, 98\% for color, and 95.85\% for surface defects. The SVM-based grading achieved an average accuracy of 95.49\% in controlled tests and 94.12\% in field conditions, with a throughput of approximately 40 apples per minute when the feeding interval was under 1.5 seconds and conveyor speed did not exceed 0.5 m/s \citep{Hu2021}.
+
+\sectionsubsub{Grading Algorithm for Orah Sorting Line Based on Improved ShuffleNet V2}
+
+This study developed a high-speed, automated grading system for Orah mandarins using an improved deep learning model integrated with a custom sorting line. The primary objective was to achieve efficient and accurate sorting based on appearance and size. The methodology centered on a self-developed 30-meter sorting line equipped with rotating fruit cups that present each Orah to an industrial camera ten times, enabling full-surface inspection. For appearance grading, the core algorithm involved an improved lightweight convolutional neural network named ShuffleNet\_wogan. Key enhancements to the original ShuffleNet v2 model included replacing the ReLU activation function with the smoother Mish function to alleviate neuron death, integrating an Efficient Channel Attention (ECA) module to better focus on critical fruit features, and applying transfer learning from the ImageNet dataset to boost performance. A dedicated time-sequential grading algorithm was then applied to the ten images of each fruit, requiring at least three consistent defect classifications within any five consecutive images to finalize the grade, thereby improving robustness. For size measurement, a multi-sampling diameter algorithm was used, which involved converting images to HSV color space, applying Otsu’s thresholding for segmentation, using ellipse fitting to estimate diameter, and employing a Z-score based filtering method to discard outlier measurements before averaging. The results demonstrated that the ShuffleNet\_wogan model achieved a 91.12\% classification accuracy on a test set. When deployed on the full sorting system, it achieved a throughput of 10 fruits per second with a final appearance grading accuracy of 92.5\% and a diameter measurement compliance rate of 98.3\% \citep{bu2025grading}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/Bu2025}
+	\caption{Mechanical model for the Orah sorting line \citep{bu2025grading}}
+	\label{fig:Bu2025}
+\end{figure}
+
+\sectionsubsub{Transfer-learning based multi-class areca nut image classification under uncontrolled lighting on a conveyor system for automated sorting}
+The study developed a conveyor-based system for the automated sorting of areca nuts based on ripeness, utilizing transfer learning for multi-class image classification under challenging, uncontrolled ambient lighting conditions. The system consisted of a feeder-scooper to singulate nuts, a conveyor belt with a green backdrop and black strips to prevent rolling, a five kg-cm torque stepper motor, and an imaging station with a RGB camera, triggered by an IR sensor. The core challenge addressed was classifying areca nuts into three market-relevant ripeness categories—Green, Green-Yellow, and Orange—based on a dataset of 1,615 images. The authors investigated the impact of different image pre-processing techniques, creating four dataset versions: the original, manually cropped, and two sets cropped automatically using contour detection and Hough circle transforms with different thresholds. Four pre-trained CNN architectures—Inception V3, ResNet50, InceptionResNetV2, and VGG16—were fine-tuned and evaluated under different hyperparameters, including two learning rates (0.001 and 0.0001) and two dataset splits of 60-20-20 and 80-10-10. The key findings revealed that Inception V3 consistently delivered the best performance, achieving a peak testing accuracy of 91.98\% and an F1 score of 0.92 using the original, uncropped dataset with an 80-10-10 split and a learning rate of 0.0001. InceptionResNetV2 achieved 90.74\% accuracy, VGG16 achieved 88.27\%, and ResNet50 performed poorly at 68.52\%. A critical discovery was that all cropping methods reduced model accuracy; for example, Inception-V3’s accuracy dropped to 84.47\% with manual cropping. VGG16 was particularly sensitive, with its F1 score falling from 0.833 on the original dataset to 0.516 on the manually cropped set \citep{kumar2024transfer}.
+
+Table \ref{tab:relatedstudies_one} shows the comparison of the studies presented above.
+
+\begin{sidewaystable}
+	\centering
+	\caption{Comparison of Automated Quality Grading and Sorting Systems}
+	\label{tab:relatedstudies_one}
+	\begin{tabular}{
+			>{\centering\arraybackslash}m{2cm} 
+			>{\centering\arraybackslash}m{3cm}   
+			>{\centering\arraybackslash}m{1.5cm} 
+			>{\centering\arraybackslash}m{3cm}    
+			>{\centering\arraybackslash}m{3cm}  
+			>{\centering\arraybackslash}m{4cm}  
+		}
+		\toprule
+		\textbf{Author(s)} & \textbf{Conveyor System} & \textbf{Camera} & \textbf{Rotation Type} & \textbf{Sensor(s)} & \textbf{Sorting Actuator} \\
+		\midrule
+		
+		\citet{liu2024design} &
+		Fixed tray type &
+		\checkmark &
+		&
+		Photoelectric sensor &
+		Electromagnet-controlled turnouts \\
+		
+		\citet{xu2024design} &
+		Rotating roller \& belt conveyor &
+		\checkmark &
+		Free rotation &
+		IR sensor &
+		Pneumatic cylinders \\
+		
+		\citet{xu2025research} &
+		\checkmark &
+		\checkmark &
+		&
+		&
+		\\
+		
+		\citet{zhang2021development} &
+		Pitch-variable screw conveyor &
+		\checkmark &
+		Free rotation &
+		Gear-tooth speed sensor &
+		Rotary solenoid and paddle sorter \\
+		
+		\citet{lee2023multi} &
+		\checkmark &
+		Three cameras &
+		Controlled, regular rotation &
+		Object detection sensor &
+		Stepping motor \\
+		
+		\citet{hu2021infield} &
+		\checkmark &
+		Three cameras &
+		&
+		Photoelectric sensor &
+		Push plate \\
+		
+		\citet{bu2025grading} &
+		Cup-based sorting line &
+		\checkmark &
+		Free rotation &
+		Photoelectric sensor &
+		\\
+		
+		\citet{kumar2024transfer} &
+		\checkmark &
+		\checkmark &
+		&
+		IR sensor &
+		\\
+		
+		\bottomrule
+	\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\subsection{Image Processing Techniques for Quality Assessment of Agricultural Produce}
+Image processing techniques play a pivotal role in the development of automated fruit and vegetable quality detection systems, enabling the non-invasive assessment of external characteristics such as defects, color, size, and shape. These techniques involve the application of algorithms for image enhancement, noise reduction, edge detection, and morphological operations, ensuring that critical quality attributes are effectively isolated and quantified for analysis. Related studies in this field investigate innovative approaches that combine these image processing methods with machine learning and deep learning models to address challenges such as varying produce appearance, complex defect patterns, and the need for real-time, high-accuracy grading in industrial settings.
+
+\sectionsubsub{Machine Vision Based Automatic Fruit Quality Detection and Grading}
+
+The study developed an automatic, embedded fruit grading system based on image processing and deep learning frameworks, where it consists of two subsystems, i.e., defective fruit detection and mechanical sorting systems. First, images of fruit moving on a conveyor were captured with a RGB camera with a 2 and 1.3 megapixels resolution, which is interfaced to a laptop or processor. An LED illumination source (12V) was provided right above the image acquisition chamber to provide better lighting conditions and minimum shadow. Two methods, image processing algorithms scheme and CNN-based model, were used to detect defective fruit. The result is then communicated to an Arduino Uno microcontroller that controls the actuators of the mechanical sorting system. The sorting system consists of a servo attached arm that moves the fruit in the respective bin. For the image processing approach, the system employed a series of steps including pre-processing, conversion to HSV and grayscale color spaces, segmentation, morphological operations, and contour drawing to calculate the percentage of defective area on each fruit. In parallel, a CNN model was developed and trained on a dataset of 1,799 mango images and 1,017 tomato images, which was augmented using techniques like rotation, flipping, and blurring. After testing various architectures, the optimal CNN for mangoes featured seven convolutional layers with a 0.6 dropout rate, while the best model for tomatoes used five convolutional layers with a 0.5 dropout rate. The key findings showed that the image processing algorithm achieved a detection accuracy of 89\% for mango and 92\% for tomatoes, while there is an 87\% sorting accuracy for mangoes and 89\% sorting accuracy for tomatoes. The CNN-based model significantly outperformed the image processing method, achieving validation accuracies of  95\% for mangoes and 93.5\% for tomatoes \citep{amna2023machine}.
+
+\sectionsubsub{A Novel Mango Grading System Based on Image Processing and Machine Learning Methods}
+This study proposed a mango grading system based on image processing and machine learning to automate the quality inspection of mangoes. The authors developed a methodology that began with building a novel dataset and applying data augmentation to expand it from 110 to 440 images, which were then processed through a pipeline utilizing the Otsu thresholding method for segmentation, contour analysis for size grading, and the Canny edge detection algorithm followed by contour detection to identify and quantify surface blemishes. The features extracted for size and defects were used to train a Random Forest classifier, which was fine-tuned to optimize performance on the dataset. The experimental results demonstrated an overall grading accuracy of 88\%, with performance varying by grade; the system was most proficient at identifying the highest-quality Grade I mangoes, attaining scores of 91.32\% accuracy, 92.06\% precision, 93.87\% recall, and a 92.12\% F1-score, while Grade II mangoes proved more challenging but were still classified robustly at 85.35\% accuracy. The study concluded that the integration of these image processing techniques with the Random Forest model provides a reliable and effective means for automated mango grading, with the potential to enhance consistency and reduce labor in post-harvest processing \citep{Doan2023}.
+
+\sectionsubsub{Defects Detection in Fruits and Vegetables Using Image Processing and Soft Computing Techniques}
+
+This study proposed an automated system for detecting external defects in fruits (apple and orange) and vegetables (tomato) using image processing and soft computing techniques. The authors developed a methodology that began with image pre-processing using a rank order filter for noise reduction and a frame difference approach for foreground object segmentation. The core of their defect detection involved converting images from RGB to the \textit{L*a*b*} color space and applying the K-means clustering algorithm (with \textit{k}=4) to segment and identify defective regions based on color, which were then refined using the Watershed Algorithm. For classification, the system extracted a comprehensive set of 23 features encompassing morphological (e.g., area, perimeter), color (e.g., mean and standard deviation of \textit{L*, a*, b*} components), and texture (energy and contrast via Segmentation-based Fractal Texture Analysis - SFTA) characteristics. These features were used to train a Naive Bayes classifier to distinguish between defective and non-defective samples. The experimental results demonstrated an overall classification accuracy of 87\%, with performance varying by produce type: the highest accuracy was for oranges (93\%), while apples and tomatoes both achieved 83\% accuracy \citep{Narendra2021}.
+
+\sectionsubsub{Fruit Grading, Disease Detection, and an Image Processing Strategy}
+
+This study proposed an automated system for pomegranate fruit grading and disease detection using image processing and machine learning. The authors developed a methodology that began with image acquisition and pre-processing, which included converting RGB images to grayscale using a weighted method, filtering to reduce noise, and resizing images to a standard 400$\times$400 pixel resolution. For the core analysis, the study utilized the K-means clustering algorithm for segmentation to distinguish the fruit from its background and identify distinct regions. Features such as color, texture, shape, and size were then extracted from the segmented images. For the final classification, CNN was employed to categorize pomegranates into different quality grades (Super-Size, King Size, Queen Size) and to detect specific diseases (Bacterial Blight, Fruit Rot, Alternaria Fruit Spot). The experimental results demonstrated a classification accuracy of approximately 85.86\%. The performance for individual diseases varied, with F1-scores ranging from 0.60 to 0.84, indicating a robust but variable detection capability across different conditions \citep{Kazi2023}.
+
+\sectionsubsub{Quality Detection and Grading of Peach Fruit Based on Image Processing Method and Neural Networks in Agricultural Industry}
+This study proposed an integrated hardware and software system for the quality detection and grading of peach fruit and other produce using machine vision and neural networks to enhance automation in the agricultural industry. The authors employed image processing techniques such as RGB to grayscale conversion, thresholding, and morphological operations to segment the fruit from the background and calculate its size in pixels. For color analysis, the system sampled multiple points on the fruit to extract average RGB values and converted them to HSI color space for a more robust analysis. A distinctive feature of this system was the integration of a weight sensor in the hardware, allowing it to combine color, size, and weight into a single quality metric (Qt) for grading. These extracted features were then classified using a backpropagation neural network. The experimental results demonstrated an accuracy of 94.58\% for peach fruit grading, the highest among the tested produce, which also included tomatoes (93.33\%), lemons (88.23\%), and apples (70\%) \citep{Luo2024}.
+
+\sectionsubsub{Disease Detection in Apple Leaves Using Image Processing Techniques}
+
+This research study proposed a system for detecting diseases in apple leaves using image processing and machine learning to assist farmers in early diagnosis and prevent the spread of crop diseases. The authors developed a methodology that began with pre-processing input images by converting them from RGB to the CIELAB color space to decouple color and intensity for better disease spot detection. For segmentation, the study employed the K-means clustering algorithm to group pixels, followed by the flood fill method to remove the background and isolate the leaf, and texture features were subsequently extracted using the Local Binary Pattern (LBP) method. A comparative analysis was done using three classifiers: a Deep Learning Convolutional Neural Network based on the GoogleNet architecture, and two traditional machine learning models, SVM and KNN. The experimental results, conducted on a dataset of apple leaf images, demonstrated a significant performance difference between the models: the GoogleNet CNN achieved the highest accuracy of 98.5\%, substantially outperforming the SVM (82.25\%) and KNN (70.3\%) models. The study concluded that the deep learning approach was superior because it automatically learned relevant features from the raw images, eliminating the need for manual feature extraction and proving more effective and efficient for the multi-class classification of apple leaf diseases \citep{Alqethami2022}.
+
+\sectionsubsub{Diagnosis of Grape Leaf Diseases Using Automatic K-means Clustering and Machine Learning}
+
+This study developed a machine vision system for the diagnosis of grape leaf diseases by employing a sophisticated image processing pipeline that begins with background removal using a combination of the Canny edge detection algorithm and gray-level thresholding to eliminate shadows and isolate the leaf. The core of their methodology utilized an automatic K-means clustering technique to segment and isolate the disease area from the healthy parts of the leaf. Following segmentation, a comprehensive set of texture, color, and shape features were extracted, with a particular emphasis on Gray-Level Co-Occurrence Matrix (GLCM) features across RGB, HSV, and L*a*b* color models, and feature dimensionality was subsequently reduced using Principal Component Analysis (PCA). These processed features were then classified using a SVM with a linear kernel, which achieved a peak accuracy of 98.97\% when applied to the K-means clustered disease areas on background-removed images, significantly outperforming two deep learning models, CNN (86.82\%) and GoogleNet (94.05\%), while also requiring substantially less processing time \citep{Javidan2023}.
+
+Table \ref{tab:relatedstudies_two} shows the comparison of the studies presented above.
+
+\begin{sidewaystable}
+	\centering
+	\caption{Comparison of Image Processing Techniques for Quality Assessment of Agricultural Produce}
+	\label{tab:relatedstudies_two}
+	\begin{tabular}{
+			>{\centering\arraybackslash}m{3cm} 
+			>{\centering\arraybackslash}m{2.5cm}   
+			>{\centering\arraybackslash}m{2cm} 
+			>{\centering\arraybackslash}m{2cm}    
+			>{\centering\arraybackslash}m{2cm}  
+			>{\centering\arraybackslash}m{2cm}  
+			>{\centering\arraybackslash}m{2.5cm}
+		}
+		\toprule
+		\textbf{Author(s)} & \textbf{Otsu Thresholding} & \textbf{Edge Detection} & \textbf{Contour Analaysis} & \textbf{K-means Clustering} & \textbf{Watershed Algorithm} & \textbf{Morphological Operations} \\
+		\midrule
+		
+		\citet{amna2023machine} &
+		&
+		&
+		\checkmark	&
+		&
+		&
+		\checkmark \\
+		
+		\citet{Doan2023} &
+		\checkmark &
+		\checkmark &
+		\checkmark &
+		&
+		&
+		\\
+		
+		\citet{Narendra2021} &
+		&
+		&
+		&
+		\checkmark &
+		\checkmark &
+		\\
+		
+		\citet{Kazi2023} &
+		&
+		&
+		&
+		\checkmark &
+		&
+		\\
+		
+		\citet{Luo2024} &
+		\checkmark &
+		\checkmark &
+		&
+		&
+		&
+		\checkmark \\
+		
+		\citet{Alqethami2022} &
+		&
+		&
+		&
+		\checkmark &
+		&
+		\\
+		
+		\citet{Javidan2023} &
+		&
+		\checkmark &
+		&
+		\checkmark &
+		&
+		\\
+		
+		\bottomrule
+	\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\subsection{Feature Extraction and Classification  Techniques for Quality Assessment of Agricultural Produce}
+The application of image processing for identifying defects in agricultural produce is a specialized and critical domain that builds directly upon the foundational research in plant disease detection. The field is broadly divided into traditional machine learning, which relies on hand-crafted features like color, shape and texture, and deep learning, where CNN-based models automatically learn features from data. The following studies illustrate this spectrum of approaches, highlighting key advancements in model architecture, the critical importance of data preparation, and the performance trade-offs between accuracy and speed that are essential for developing a robust, real-time inspection system.
+
+\sectionsubsub{Deep Network with Score Level Fusion and Inference-Based Transfer Learning to Recognize Leaf Blight and Fruit Rot Diseases of Eggplant}
+
+The study designed a two-stream deep fusion architecture to recognize nine distinct diseases in eggplants using a custom dataset of 2,284 images. To overcome the lack of a public benchmark and the class imbalance in the data, the authors employed data augmentation, expanding the training set to 9,620 images. Six pretrained deep CNN models (Inception v3, VGG16, VGG19, ResNet50, MobileNet, and NasNetMobile) were used for feature extraction, enhanced with a novel (L, n) transfer feature learning technique and an adaptive learning rate strategy. A score-level fusion combining the predictions from CNN-Softmax and CNN-SVM, and inference method integrating the top three best models, was also implemented. The key findings showed that the models Inception V3, MobileNet, and VGG19 were the most discriminative, achieving individual accuracies of 96.11\%, 93.74\%, and 92.11\%, respectively, after fusion. Individually , the CNN-Softmax classifier outperformed the CNN-SVM, with Inception v3 achieving accuracies of 96.83\%  and 92.50\%, respectively. After applying the fusion of CNN-Softmax and CNN-SVM, Inception v3 achieved an accuracy of 96.11\%, which was further boosted to a final accuracy of 98.9\% after applying the inference method that integrated the top three models. However, while the fusion method was the most accurate, it was also the slowest (4.41 seconds), compared to faster models like MobileNet (1.01 seconds) \citep{haque2022deepnetwork}.
+
+\sectionsubsub{Classification of Eggplant Diseases Using Feature Extraction with AlexNet and Random Forest}
+
+The study employs a deep learning-based feature extraction and machine learning classification approach for eggplant disease detection. The method utilized a dataset of 4,089 images across six disease categories. To address significant class imbalance, data augmentation techniques–including horizontal flipping, random rotation, Gaussian blur, additive Gaussian noise, and brightness adjustment–were applied to balance the dataset. Feature extraction was performed using the AlexNet model, and the extracted features were classified using the Random Forest algorithm. The key findings highlight the critical impact of data augmentation: prior to augmentation, the model achieved a baseline accuracy of 53.38\%, with a precision of 55.05\%, recall of 53.38\%, and an F1-score of 49.66\%. Following augmentation, the model’s performance improved substantially, with accuracy rising to 74.64\%, precision to 74.18\%, recall to 74.64\%, and F1-score to 74.23\%, demonstrating that dataset balancing is essential for effective model generalization \citep{kursun2025conference}.
+
+\sectionsubsub{A Novel Method for Vegetable and Fruit Classification Based on Using Diffusion Maps and Machine Learning}
+
+The study proposed a novel, handcrafted feature-based model for the automatic classification of 18 types of vegetables and fruits to replace error-prone manual sorting. The system’s methodology centered on a comprehensive feature extraction pipeline, where three distinct types of handcrafted features were meticulously derived from preprocessed images: thirteen statistical texture features from the Grey-Level Co-occurrence Matrix (GLCM), a 30-dimensional feature vector from Discrete Wavelet Transform (DWT) coefficients, and a 6-dimensional shape feature vector from Histogram of Oriented Gradients (HOG). These multi-modal features were then fused, and the resulting high-dimensional feature vector was refined using the non-linear dimensionality reduction technique of Diffusion Maps (DM) to eliminate redundancy. The reduced feature set was subsequently classified using five different machine learning algorithms: Decision Tree, Naive Bayes, LDA, SVM, and Bagging. The results demonstrated that the combination of all three feature types, processed with DM, achieved the highest performance, with a SVM classifier reaching a peak classification accuracy of 96.25\% \citep{Wang2024}.
+
+\sectionsubsub{Tomato Quality Classification Based on Transfer Learning Feature Extraction and Machine Learning Algorithm Classifiers}
+
+This study introduced a hybrid deep learning and machine learning framework for automated tomato quality classification. The system was built around a transfer learning-based feature extraction pipeline, where four pre-trained convolutional neural networks—MobileNetv2, Inceptionv3, ResNet50, and AlexNet—were leveraged as deep feature extractors. Features were explicitly drawn from the deepest convolutional or dense layers of these networks to capture complex and discriminative patterns related to tomato appearance, ripeness, and defects. These extracted deep features were then classified using SVM, Random Forest, and KNN. For data acquisition, a single NVIDIA Jetson TX1 single-board computer with one onboard RGB camera was used to capture 2400 images of 600 tomatoes, with each tomato imaged from four sides (top, bottom, front, rear) to simulate rotation on a conveyor system. In image preprocessing, Otsu thresholding and morphological operations for background cancellation and region-of-interest segmentation were used, as well as data augmentation to enhance robustness. The results demonstrated that the hybrid Inceptionv3-SVM model achieved superior performance, attaining accuracies of 97.50\% in binary classification (healthy vs. reject) and 96.67\% in multiclass classification (ripe, unripe, reject), outperforming both standalone transfer learning and other hybrid combinations, thereby validating the effectiveness of deep feature extraction paired with classical machine learning for agricultural produce grading \cite{Mputu2024}.
+
+\sectionsubsub{Fruit Classification Based on Shape, Color and Texture using Image Processing Techniques}
+
+This study presents a fruit classification system based on the fusion of handcrafted shape, color, and texture features, aiming to automate the quality assessment process traditionally reliant on manual, error-prone inspection. The system's methodology is centered on a multi-stage feature extraction pipeline: color features were derived using HSV histograms and color moments; texture characteristics were captured through a Discrete Wavelet Transform (DWT) and a suite of eleven statistical measures—including Energy, Correlation, and Entropy—calculated from the Grey-Level Co-occurrence Matrix (GLCM); and shape was analyzed based on major and minor axis measurements. These multi-modal features were then classified using a SVM algorithm. For data acquisition, a single 8-megapixel camera was used, positioned above a flat surface to capture images in a controlled setup. The results demonstrated that while shape-based classification alone was a drawback, the amalgamation of color and texture features significantly enhanced performance, achieving a peak classification accuracy of 97.2\% for pomegranates and an overall robust performance across a dataset comprising 10 classes, including apple, banana, and guava, with the Hue component alone yielding 100\% accuracy when processed with SVM, highlighting the efficacy of the proposed handcrafted feature fusion approach \citep{Chandra2024}.
+
+\sectionsubsub{Intelligent Detection and Waste Control of Hawthorn Fruit Based on Ripening Level Using Machine Vision System and Deep Learning Techniques}
+
+This study developed an intelligent system for hawthorn fruit classification based on ripening level to enhance waste management and marketability, utilizing a machine vision system integrated with deep learning techniques. The system employed a structured imaging setup, where 600 hawthorn fruits were individually placed in a custom-designed illumination chamber and imaged using a single smartphone camera. The methodology centered on an end-to-end deep learning approach, where three convolutional neural network architectures—Inception-V3, ResNet-50, and a custom-designed CNN—were applied to automatically extract discriminative features directly from the preprocessed RGB images. This approach was complemented by data augmentation techniques, including rotation and color manipulation, which expanded the dataset to 3000 images to enhance model generalization. The results demonstrated the superior performance of the deep learning models, with Inception v3 achieving a perfect validation accuracy of 100\% in classifying hawthorn into unripe, ripe, and overripe categories, significantly outperforming traditional machine learning classifiers such as SVM, RF, and KNN, which relied on hand-engineered features like HOG and LBP and attained a maximum accuracy of 96.10\%. The study conclusively validated the efficacy of automated, deep learning-driven feature extraction for precise fruit ripeness classification, offering a scalable and cost-effective alternative to conventional sorting methods \citep{Azadnia2023}.
+
+\sectionsubsub{Detection of Potato Disease Using Image Segmentation and Machine Learning}
+
+The study employed machine learning classifiers to detect and classify the two most common leaf diseases of potato plants, namely early blight and late blight, alongside healthy leaves. The methodology utilized a dataset of 450 labeled potato leaf images and involved a processing pipeline beginning with image segmentation, where masks were generated using color information the HSV color space to isolate healthy (green) and diseases (brown) regions. Feature extraction was then performed using global feature descriptions (GFD), specifically extracting shape features with Hu Moments, texture features with Haralick Texture, and color distribution with a color histogram. These feature vectors were used to train and test seven classifier models: RF, Logistic Regression (LR), KNN, DT, NB, Linear Discriminant Analysis (LDA), and SVM. The key findings from the comparative analysis showed that the RF classifier significantly outperformed all others, achieving the highest classification accuracy of 97\%. The subsequent accuracies for the other models were LR (94\%), KNN and DT (91\%), NB (84\%), LDA (78\%), and SVM (37\%), thereby establishing Random Forest as the most effective model for this image-based potato disease detection task \citep{Iqbal2020}.
+
+Table \ref{tab:relatedstudies_three} shows the comparison of the studies presented above. 
+
+\begin{sidewaystable}
+	\centering
+	\caption{Comparison of Feature Extraction and Classification Techniques for Quality Assessment of Agricultural Produce}
+	\label{tab:relatedstudies_three}
+	\begin{tabular}{
+			>{\centering\arraybackslash}m{2.5cm} 
+			>{\centering\arraybackslash}m{5cm}   
+			>{\centering\arraybackslash}m{4.5cm} 
+			>{\centering\arraybackslash}m{7cm}   
+		}
+		\toprule
+		\textbf{Author(s)} & \textbf{Feature Extraction} & \textbf{Deep Learning Feature Extraction Algorithms} & \textbf{ML Classifier(s)} \\
+		\midrule
+		
+		\citet{haque2022deepnetwork} &
+		&
+		Inception v3, VGG16, VGG19, ResNet50, MobileNet, NasNetMobile &
+		SVM \\
+		
+		\citet{Kursun2025} &
+		&
+		AlexNet &
+		Random Forest \\
+		
+		\citet{Wang2024} &
+		GLCM, Haralick Texture, DWT, Histogram of Oriented Gradient, Diffusion Map &
+		&
+		Decision Tree, Naive Bayes,  LDA, SVM , Bagging \\
+		
+		\citet{Mputu2024} &
+		&
+		MobileNetv2, Inceptionv3, ResNet50, and AlexNet &
+		SVM, Random Forest, KNN \\
+		
+		\citet{Chandra2024} &
+		HSV histogram, DWT, GLCM &
+		&
+		SVM \\
+		
+		\citet{Azadnia2023} &
+		&
+		Inception v3, ResNet50, Custom CNN &
+		\\
+		
+		\citet{Iqbal2020} &
+		Hu moments, Haralick Texture, Color Histogram &
+		&
+		Random Forest, Logistic Regression, KNN, Decision Tree, Naive Bayes, LDA, SVM \\
+		
+		\bottomrule
+	\end{tabular}
+\end{sidewaystable}
+
+\newpage
+
+\subsection{Synthesis}
+A significant research gap has been identified in the automation of grading and sorting systems for elongated and curved agricultural produce, particularly eggplants. Most existing studies, such as those by \citep{xu2024design} and \citep{bu2025grading}, have been primarily focused on spherical or root-based crops like apples and sweet potatoes. Full-surface inspection was achieved by \citep{lee2023multi} using a three-camera rotational system; however, the method was limited to spherical fruits. Likewise, \citep{bu2025grading} and \citep{xu2024design} utilized single-camera, multi-view inspections with free rotation, which could not ensure complete surface coverage. In contrast, \citep{liu2024design} developed a machine vision system for the quality grading of cucumbers—an elongated type of produce—using a fixed-tray conveyor setup equipped with a single top-view camera and photoelectric sensors. While effective in determining the mass of the cucumber, the system lacked bottom-surface visibility, which is important in achieving full surface inspection for the accurate quality evaluation of the produce. Similarly, \citep{amna2023machine} implemented an image-based quality detection system for mangoes and tomatoes using a single top-view camera and servo-driven sorting mechanism. Although the approach achieved reliable classification for spherical produce, it did not enable complete visual inspection for elongated crops. 
+
+To address these limitations, the present study proposes an automated eggplant grading and sorting system that utilizes machine learning algorithms for feature selection and classification. The system is implemented on a conveyor with a transparent imaging platform and a two-camera configuration, allowing simultaneous capture of the eggplant’s top and bottom surfaces to ensure comprehensive inspection and accurate quality grading. The summary of these highlights is summarized as shown in Table \ref{tab:synthesis}.
+
+\begin{sidewaystable}
+	\centering
+	\caption{Comparison of Related Studies on Automated Grading and Sorting Systems}
+	\label{tab:synthesis}
+	\begin{tabular}{
+			>{\centering\arraybackslash}m{2.5cm} 
+			>{\centering\arraybackslash}m{2.5cm}   
+			>{\centering\arraybackslash}m{2.5cm} 
+			>{\centering\arraybackslash}m{3cm}   
+			>{\centering\arraybackslash}m{3cm}  
+			>{\centering\arraybackslash}m{3cm}  
+		}
+		\toprule
+		\textbf{Author(s)} & \textbf{Product} & \textbf{Multiview Inspection} & \textbf{Vision Method} & \textbf{Sorting Mechanism} & \textbf{Target Feature/Defect} \\
+		\midrule
+		
+		\citet{xu2024design} &
+		Sweetpotato &
+		\checkmark &
+		YOLOv8, BoT-SORT tracker &
+		Pneumatic cylinder
+		Surface defects, size \\
+		
+		\citet{bu2025grading} &
+		Orah mandarin &
+		\checkmark &
+		Improved ShuffleNet\_v2 (ShuffleNet\_wogan) &
+		&
+		Appearance, diameter \\
+		
+		\citet{lee2023multi} &
+		Apple &
+		\checkmark &
+		CNN with Knowledge Distillation &
+		Stepping motor &
+		Surface defects \\
+		
+		\citet{liu2024design} &
+		Cucumber &
+		&
+		MassNet &
+		Electromagnet-controlled turnouts &
+		Mass \\
+		
+		\citet{amna2023machine} &
+		Mango, Tomato &
+		&
+		Custom CNN &
+		Servo motor &
+		Surface defects \\
+		
+		\bottomrule
+	\end{tabular}
+\end{sidewaystable}
+
+}
