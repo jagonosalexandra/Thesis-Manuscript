@@ -24,7 +24,9 @@
 \usepackage{tocloft}
 \usepackage{booktabs} % for better looking tables
 \usepackage{longtable}
-\usepackage{vcell}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{float}
 %\renewcommand*\sectionmark[1]{\markboth{#1}{}}
 %\renewcommand*\subsectionmark[1]{\markright{#1}{}}
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -128,3 +130,5 @@
 \captionsetup[table]{position=above, justification=raggedright, singlelinecheck=false, labelformat=simple, labelsep=colon}
 
 %- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+\newcommand{\sectionsubsub}[1]{\noindent\textit{\textbf{#1}}\par}

@@ -1,14 +1,37 @@
-## LaTeX ##
-*.pdf
+# LaTeX build files
 *.aux
-*.log
 *.bbl
 *.blg
-*.toc
+*.brf
+*.idx
+*.ilg
+*.ind
 *.lof
+*.log
 *.lot
 *.out
+*.toc
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+*.nav
+*.snm
+*.vrb
 *.dvi
+*.pdf
+*.synctex.gz(busy)
+*.synctex(busy)
+
+# TeXshop/VSCode temporary files
+*.synctex
+*.synctex.gz
+*.DS_Store
+*.bak
+*.tmp
+*.gz
+*.out.ps
+
+# Backup and temp files
+*~
+*.swp
+*.backup
