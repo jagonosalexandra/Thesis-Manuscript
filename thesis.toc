@@ -16,21 +16,22 @@
 \contentsline {section}{\numberline {1.6}Definition of Terms}{10}{section.1.6}%
 \contentsline {chapter}{\numberline {2}REVIEW OF RELATED LITERATURE}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Theoretical Background}{12}{section.2.1}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{17}{chapter.3}%
+\contentsline {subsection}{\numberline {2.1.1}Machine Learning}{13}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Research Design and Procedure}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Hardware Development}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{22}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{26}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Formula}{28}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tables}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Images}{30}{section.3.5}%
-\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{32}{chapter.4}%
-\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Summary of Findings}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Conclusion}{35}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Recommendations}{37}{section.5.3}%
-\contentsline {chapter}{APPENDICES}{38}{chapter*.12}%
-\contentsline {chapter}{REFERENCES}{39}{chapter*.12}%
-\contentsline {chapter}{CURRICULUM VITAE}{42}{chapter*.13}%
-\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{44}{chapter*.13}%
+\contentsline {section}{\numberline {3.2}Hardware Development}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware Requirements}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Hardware Cost}{25}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Formula}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tables}{26}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Images}{28}{section.3.5}%
+\contentsline {chapter}{\numberline {4}RESULTS AND DISCUSSION}{30}{chapter.4}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONS AND RECOMMENDATIONS}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of Findings}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Conclusion}{32}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Recommendations}{33}{section.5.3}%
+\contentsline {chapter}{APPENDICES}{34}{chapter*.12}%
+\contentsline {chapter}{REFERENCES}{35}{chapter*.12}%
+\contentsline {chapter}{CURRICULUM VITAE}{38}{chapter*.13}%
+\contentsline {chapter}{CERTIFICATE OF AUTHENTIC AUTHORSHIP}{39}{chapter*.13}%
 \contentsfinish 

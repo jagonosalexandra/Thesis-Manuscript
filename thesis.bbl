@@ -24,6 +24,11 @@ Bharman, P., Saad, S.~A., Khan, S., Jahan, I., Ray, M., and Biswas, M. (2022).
 \newblock Deep learning in agriculture: a review.
 \newblock {\em Asian Journal of Research in Computer Science}, 13(2):28--47.
 
+\bibitem[\protect\astroncite{Bishop and Nasrabadi}{2006}]{bishop2006pattern}
+Bishop, C.~M. and Nasrabadi, N.~M. (2006).
+\newblock {\em Pattern recognition and machine learning}, volume~4.
+\newblock Springer.
+
 \bibitem[\protect\astroncite{Bolton}{2015}]{bolton2015programmable}
 Bolton, W. (2015).
 \newblock {\em Programmable logic controllers}.

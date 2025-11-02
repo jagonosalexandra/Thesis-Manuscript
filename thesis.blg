@@ -23,49 +23,50 @@ A level-1 auxiliary file: cv.aux
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 A level-1 auxiliary file: caa.aux
 Database file #1: references.bib
+Warning--can't use both volume and number fields in bishop2006pattern
 Warning--can't use both volume and number fields in goodfellow2016deep
 Warning--there's a number but no volume in haralick2007textural
 Warning--empty booktitle in he2022cohens
 Warning--can't use both author and editor fields in mamaril2021eggplantcomics
-You've used 30 entries,
+You've used 31 entries,
             1940 wiz_defined-function locations,
-            674 strings with 9632 characters,
-and the built_in function-call counts, 11573 in all, are:
-= -- 1125
-> -- 458
-< -- 22
-+ -- 156
-- -- 152
-* -- 1010
-:= -- 2017
-add.period$ -- 98
-call.type$ -- 30
-change.case$ -- 217
-chr.to.int$ -- 30
-cite$ -- 34
-duplicate$ -- 454
-empty$ -- 808
-format.name$ -- 192
-if$ -- 2239
+            678 strings with 9738 characters,
+and the built_in function-call counts, 11908 in all, are:
+= -- 1155
+> -- 471
+< -- 24
++ -- 160
+- -- 156
+* -- 1041
+:= -- 2075
+add.period$ -- 101
+call.type$ -- 31
+change.case$ -- 223
+chr.to.int$ -- 31
+cite$ -- 36
+duplicate$ -- 468
+empty$ -- 831
+format.name$ -- 199
+if$ -- 2303
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 158
-num.names$ -- 90
-pop$ -- 205
+missing$ -- 31
+newline$ -- 163
+num.names$ -- 93
+pop$ -- 212
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 233
 quote$ -- 0
-skip$ -- 333
+skip$ -- 344
 stack$ -- 0
-substring$ -- 728
-swap$ -- 91
-text.length$ -- 5
+substring$ -- 740
+swap$ -- 95
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 170
-warning$ -- 4
-while$ -- 93
+type$ -- 174
+warning$ -- 5
+while$ -- 95
 width$ -- 0
-write$ -- 397
-(There were 4 warnings)
+write$ -- 410
+(There were 5 warnings)
